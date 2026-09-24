@@ -1,0 +1,28 @@
+{
+ "path": "B_scaling_laws/supplementary_NQ_experiment_expanded.csv",
+ "shape": [
+  450,
+  5
+ ],
+ "columns": [
+  "experiment_id",
+  "N_params_B",
+  "D_tokens_B",
+  "Q_score",
+  "val_loss"
+ ],
+ "dtypes": {
+  "experiment_id": "str",
+  "N_params_B": "float64",
+  "D_tokens_B": "float64",
+  "Q_score": "float64",
+  "val_loss": "float64"
+ },
+ "na_counts": {
+  "experiment_id": 0,
+  "N_params_B": 0,
+  "D_tokens_B": 0,
+  "Q_score": 0,
+  "val_loss": 0
+ }
+}

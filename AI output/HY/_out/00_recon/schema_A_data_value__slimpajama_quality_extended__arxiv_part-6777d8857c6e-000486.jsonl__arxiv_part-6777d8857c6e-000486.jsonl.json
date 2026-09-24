@@ -1,0 +1,30 @@
+{
+ "path": "A_data_value/slimpajama_quality_extended/arxiv_part-6777d8857c6e-000486.jsonl/arxiv_part-6777d8857c6e-000486.jsonl",
+ "n_records": 17523,
+ "fields": [
+  "id",
+  "dsir_books",
+  "fluency_en",
+  "rps_lines_ending_with_terminal_punctution_mark",
+  "modernbert_cleanliness",
+  "qurater",
+  "rps_doc_num_sentences",
+  "rps_doc_word_count",
+  "ad_en",
+  "rps_doc_frac_no_alph_words",
+  "modernbert_reasoning",
+  "rps_doc_frac_chars_top_2gram",
+  "rps_lines_uppercase_letter_fraction",
+  "rps_doc_frac_unique_words",
+  "rps_lines_numerical_chars_fraction",
+  "fineweb_edu",
+  "dsir_math",
+  "rps_doc_mean_word_length",
+  "dsir_wiki",
+  "rps_doc_frac_chars_top_3gram",
+  "rps_doc_unigram_entropy",
+  "modernbert_professionalism",
+  "modernbert_readability",
+  "sub_path"
+ ]
+}

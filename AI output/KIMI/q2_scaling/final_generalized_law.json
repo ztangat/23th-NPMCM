@@ -1,0 +1,12 @@
+{
+  "E": 1.6898,
+  "A": 0.354,
+  "alpha": 0.34,
+  "B": 1.2403,
+  "beta": 0.2799,
+  "gamma_Q": 0.08863308713770217,
+  "Q0_baseline": 0.55,
+  "note": "L = E + A/N^a + B*m(p)/(D^b*(Q/Q0)^g); m(p*)=1, m(worst)=mixture_penalty_range",
+  "m_worst": 1.4217111125925483,
+  "Deff_exponent_Q": 0.3166598325748559
+}

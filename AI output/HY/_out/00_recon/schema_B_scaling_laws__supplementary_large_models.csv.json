@@ -1,0 +1,37 @@
+{
+ "path": "B_scaling_laws/supplementary_large_models.csv",
+ "shape": [
+  132,
+  8
+ ],
+ "columns": [
+  "model_name",
+  "N_params_B",
+  "D_tokens_B",
+  "FLOPs",
+  "publication_date",
+  "organization",
+  "accessibility",
+  "country"
+ ],
+ "dtypes": {
+  "model_name": "str",
+  "N_params_B": "float64",
+  "D_tokens_B": "float64",
+  "FLOPs": "float64",
+  "publication_date": "str",
+  "organization": "str",
+  "accessibility": "str",
+  "country": "str"
+ },
+ "na_counts": {
+  "model_name": 0,
+  "N_params_B": 0,
+  "D_tokens_B": 0,
+  "FLOPs": 11,
+  "publication_date": 0,
+  "organization": 1,
+  "accessibility": 2,
+  "country": 1
+ }
+}

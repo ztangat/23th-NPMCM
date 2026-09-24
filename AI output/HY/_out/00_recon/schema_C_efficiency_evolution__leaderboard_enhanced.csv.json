@@ -1,0 +1,58 @@
+{
+ "path": "C_efficiency_evolution/leaderboard_enhanced.csv",
+ "shape": [
+  4576,
+  15
+ ],
+ "columns": [
+  "Model",
+  "#Params (B)",
+  "Submission Date",
+  "Hub License",
+  "Type",
+  "Average ⬆️",
+  "IFEval",
+  "BBH",
+  "MATH Lvl 5",
+  "GPQA",
+  "MUSR",
+  "MMLU-PRO",
+  "Epoch_AI_Publication_Date",
+  "Epoch_AI_Organization",
+  "Epoch_AI_Open_Weights"
+ ],
+ "dtypes": {
+  "Model": "str",
+  "#Params (B)": "float64",
+  "Submission Date": "str",
+  "Hub License": "str",
+  "Type": "str",
+  "Average ⬆️": "float64",
+  "IFEval": "float64",
+  "BBH": "float64",
+  "MATH Lvl 5": "float64",
+  "GPQA": "float64",
+  "MUSR": "float64",
+  "MMLU-PRO": "float64",
+  "Epoch_AI_Publication_Date": "str",
+  "Epoch_AI_Organization": "str",
+  "Epoch_AI_Open_Weights": "str"
+ },
+ "na_counts": {
+  "Model": 0,
+  "#Params (B)": 3,
+  "Submission Date": 12,
+  "Hub License": 1753,
+  "Type": 0,
+  "Average ⬆️": 0,
+  "IFEval": 0,
+  "BBH": 0,
+  "MATH Lvl 5": 0,
+  "GPQA": 0,
+  "MUSR": 0,
+  "MMLU-PRO": 0,
+  "Epoch_AI_Publication_Date": 4129,
+  "Epoch_AI_Organization": 4133,
+  "Epoch_AI_Open_Weights": 4133
+ }
+}

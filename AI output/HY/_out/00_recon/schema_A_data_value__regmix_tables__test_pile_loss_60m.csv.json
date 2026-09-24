@@ -1,0 +1,55 @@
+{
+ "path": "A_data_value/regmix_tables/test_pile_loss_60m.csv",
+ "shape": [
+  256,
+  14
+ ],
+ "columns": [
+  "index",
+  "metric/the_pile_arxiv_val_loss",
+  "metric/the_pile_freelaw_val_loss",
+  "metric/the_pile_pubmed_central_val_loss",
+  "metric/the_pile_wikipedia_en_val_loss",
+  "metric/the_pile_dm_mathematics_val_loss",
+  "metric/the_pile_github_val_loss",
+  "metric/the_pile_stackexchange_val_loss",
+  "metric/the_pile_gutenberg_pg_19_val_loss",
+  "metric/the_pile_pile_cc_val_loss",
+  "metric/the_pile_ubuntu_irc_val_loss",
+  "metric/the_pile_hackernews_val_loss",
+  "metric/the_pile_pubmed_abstracts_val_loss",
+  "metric/the_pile_uspto_backgrounds_val_loss"
+ ],
+ "dtypes": {
+  "index": "int64",
+  "metric/the_pile_arxiv_val_loss": "float64",
+  "metric/the_pile_freelaw_val_loss": "float64",
+  "metric/the_pile_pubmed_central_val_loss": "float64",
+  "metric/the_pile_wikipedia_en_val_loss": "float64",
+  "metric/the_pile_dm_mathematics_val_loss": "float64",
+  "metric/the_pile_github_val_loss": "float64",
+  "metric/the_pile_stackexchange_val_loss": "float64",
+  "metric/the_pile_gutenberg_pg_19_val_loss": "float64",
+  "metric/the_pile_pile_cc_val_loss": "float64",
+  "metric/the_pile_ubuntu_irc_val_loss": "float64",
+  "metric/the_pile_hackernews_val_loss": "float64",
+  "metric/the_pile_pubmed_abstracts_val_loss": "float64",
+  "metric/the_pile_uspto_backgrounds_val_loss": "float64"
+ },
+ "na_counts": {
+  "index": 0,
+  "metric/the_pile_arxiv_val_loss": 0,
+  "metric/the_pile_freelaw_val_loss": 0,
+  "metric/the_pile_pubmed_central_val_loss": 0,
+  "metric/the_pile_wikipedia_en_val_loss": 0,
+  "metric/the_pile_dm_mathematics_val_loss": 0,
+  "metric/the_pile_github_val_loss": 0,
+  "metric/the_pile_stackexchange_val_loss": 0,
+  "metric/the_pile_gutenberg_pg_19_val_loss": 0,
+  "metric/the_pile_pile_cc_val_loss": 0,
+  "metric/the_pile_ubuntu_irc_val_loss": 0,
+  "metric/the_pile_hackernews_val_loss": 0,
+  "metric/the_pile_pubmed_abstracts_val_loss": 0,
+  "metric/the_pile_uspto_backgrounds_val_loss": 0
+ }
+}

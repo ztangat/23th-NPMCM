@@ -1,0 +1,9 @@
+{
+ "path": "A_data_value/regmix_domain_sample.jsonl/regmix_domain_sample.jsonl",
+ "n_records": 138034,
+ "fields": [
+  "text",
+  "_source_domain",
+  "_source_path"
+ ]
+}

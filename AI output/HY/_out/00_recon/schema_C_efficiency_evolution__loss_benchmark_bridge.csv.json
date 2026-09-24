@@ -1,0 +1,52 @@
+{
+ "path": "C_efficiency_evolution/loss_benchmark_bridge.csv",
+ "shape": [
+  43,
+  13
+ ],
+ "columns": [
+  "Model",
+  "N_params_B",
+  "D_tokens_B",
+  "Val_Loss",
+  "LB_Average",
+  "LB_IFEval",
+  "LB_BBH",
+  "LB_MATH",
+  "LB_GPQA",
+  "LB_MUSR",
+  "LB_MMLU_PRO",
+  "Loss_Source",
+  "Loss_Comparability"
+ ],
+ "dtypes": {
+  "Model": "str",
+  "N_params_B": "float64",
+  "D_tokens_B": "float64",
+  "Val_Loss": "float64",
+  "LB_Average": "float64",
+  "LB_IFEval": "float64",
+  "LB_BBH": "float64",
+  "LB_MATH": "float64",
+  "LB_GPQA": "float64",
+  "LB_MUSR": "float64",
+  "LB_MMLU_PRO": "float64",
+  "Loss_Source": "str",
+  "Loss_Comparability": "str"
+ },
+ "na_counts": {
+  "Model": 0,
+  "N_params_B": 0,
+  "D_tokens_B": 36,
+  "Val_Loss": 0,
+  "LB_Average": 0,
+  "LB_IFEval": 0,
+  "LB_BBH": 0,
+  "LB_MATH": 0,
+  "LB_GPQA": 0,
+  "LB_MUSR": 0,
+  "LB_MMLU_PRO": 0,
+  "Loss_Source": 0,
+  "Loss_Comparability": 0
+ }
+}

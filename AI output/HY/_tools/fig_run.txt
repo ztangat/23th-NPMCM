@@ -1,0 +1,13 @@
+saved fig1_domain_Q.png
+saved fig2_pstar.png
+saved fig3_scaling_law.png
+saved fig4_psi.png
+saved fig5_equivalence.png
+saved fig6_q3_optimal.png
+saved fig7_q3_share.png
+saved fig8_phase.png
+saved fig9_frontier.png
+saved fig10_fixedscale.png
+saved fig11_forecast.png
+saved fig12_bridge.png
+ALL DONE -> C:\Users\dkyyt\Desktop\F题\HY\figs

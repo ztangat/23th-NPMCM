@@ -1,0 +1,17 @@
+﻿python.exe : Traceback (most recent call last):
+所在位置 行:445 字符: 1
++ & "C:/Users/dkyyt/anaconda3/python.exe" "C:\Users\dkyyt\Desktop\F题\_t ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last) 
+   ::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Users\dkyyt\Desktop\F棰榎_tools\q4_main3.py", line 302, in <module>
+    json.dump(GROW[nm], open(os.path.join(OUT, 'q4_c4_growth_%s.json' % col.low
+er(), 'w'),
+                        ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^
+                             encoding='utf-8'), ensure_ascii=False, indent=2)
+                             ^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\dkyyt\\Desk
+top\\F棰榎\_out\\04_q4\\q4_c4_growth_cfl.json\\w'

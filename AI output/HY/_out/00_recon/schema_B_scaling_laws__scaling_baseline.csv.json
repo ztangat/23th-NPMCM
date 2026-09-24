@@ -1,0 +1,28 @@
+{
+ "path": "B_scaling_laws/scaling_baseline.csv",
+ "shape": [
+  57,
+  5
+ ],
+ "columns": [
+  "family",
+  "N_params_B",
+  "D_tokens_B",
+  "val_loss",
+  "is_converged"
+ ],
+ "dtypes": {
+  "family": "str",
+  "N_params_B": "float64",
+  "D_tokens_B": "int64",
+  "val_loss": "float64",
+  "is_converged": "int64"
+ },
+ "na_counts": {
+  "family": 0,
+  "N_params_B": 0,
+  "D_tokens_B": 0,
+  "val_loss": 0,
+  "is_converged": 0
+ }
+}

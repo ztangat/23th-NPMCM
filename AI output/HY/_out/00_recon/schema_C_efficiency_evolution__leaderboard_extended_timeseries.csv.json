@@ -1,0 +1,46 @@
+{
+ "path": "C_efficiency_evolution/leaderboard_extended_timeseries.csv",
+ "shape": [
+  4599,
+  11
+ ],
+ "columns": [
+  "Model",
+  "Year",
+  "Params_B",
+  "Average",
+  "IFEval",
+  "BBH",
+  "MATH_Lvl5",
+  "GPQA",
+  "MUSR",
+  "MMLU_PRO",
+  "Source"
+ ],
+ "dtypes": {
+  "Model": "str",
+  "Year": "int64",
+  "Params_B": "float64",
+  "Average": "float64",
+  "IFEval": "float64",
+  "BBH": "float64",
+  "MATH_Lvl5": "float64",
+  "GPQA": "float64",
+  "MUSR": "float64",
+  "MMLU_PRO": "float64",
+  "Source": "str"
+ },
+ "na_counts": {
+  "Model": 0,
+  "Year": 0,
+  "Params_B": 0,
+  "Average": 0,
+  "IFEval": 0,
+  "BBH": 0,
+  "MATH_Lvl5": 0,
+  "GPQA": 0,
+  "MUSR": 0,
+  "MMLU_PRO": 0,
+  "Source": 0
+ }
+}

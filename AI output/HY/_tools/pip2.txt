@@ -1,0 +1,11 @@
+﻿Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+python.exe : ERROR: Could not find a version that satisfies the requirement num
+py (from versions: none)
+所在位置 行:445 字符: 1
++ & "C:\Users\dkyyt\.workbuddy\binaries\python\envs\default\Scripts\pyt ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (ERROR: Could no...versions: none) 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ERROR: No matching distribution found for numpy

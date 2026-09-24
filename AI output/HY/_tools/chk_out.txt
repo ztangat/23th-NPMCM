@@ -1,0 +1,8 @@
+3.13.14 (main, Jun 11 2026, 04:04:46) [MSC v.1944 64 bit (AMD64)]
+numpy MISSING (No module named 'numpy')
+pandas MISSING (No module named 'pandas')
+scipy MISSING (No module named 'scipy')
+sklearn MISSING (No module named 'sklearn')
+statsmodels MISSING (No module named 'statsmodels')
+matplotlib MISSING (No module named 'matplotlib')
+pyarrow MISSING (No module named 'pyarrow')

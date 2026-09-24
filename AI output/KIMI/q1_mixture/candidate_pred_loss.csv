@@ -1,0 +1,6 @@
+candidate,pred_mean_loss_GBM
+gbm_opt,4.721987860170365
+gbm_opt_cap30,4.721987860170365
+uniform,4.6976055363019755
+best_observed_train,4.759559709434474
+train_mean,4.683886616610045

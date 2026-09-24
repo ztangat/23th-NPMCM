@@ -1,0 +1,16 @@
+﻿Looking in indexes: https://mirrors.aliyun.com/pypi/simple/
+Collecting numpy
+  Downloading numpy-2.5.3-cp313-cp313-win_amd64.whl (12.6 MB)
+     ---------------------------------------- 12.6/12.6 MB 374.1 kB/s  0:00:33
+Installing collected packages: numpy
+Successfully installed numpy-2.5.3
+python.exe : 
+所在位置 行:445 字符: 85
++ ... s\chk2.py"; & "C:/Users/dkyyt/.workbuddy/binaries/python/envs/default ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[notice] A new release of pip is available: 26.1.2 -> 26.2.1
+[notice] To update, run: C:\Users\dkyyt\.workbuddy\binaries\python\envs\default
+\Scripts\python.exe -m pip install --upgrade pip

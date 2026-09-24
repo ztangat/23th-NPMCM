@@ -1,0 +1,28 @@
+{
+ "path": "A_data_value/regmix_domain_summary.csv",
+ "shape": [
+  17,
+  5
+ ],
+ "columns": [
+  "domain",
+  "source_path",
+  "sample_rows",
+  "sample_bytes_requested",
+  "avg_text_chars"
+ ],
+ "dtypes": {
+  "domain": "str",
+  "source_path": "str",
+  "sample_rows": "int64",
+  "sample_bytes_requested": "int64",
+  "avg_text_chars": "float64"
+ },
+ "na_counts": {
+  "domain": 0,
+  "source_path": 0,
+  "sample_rows": 0,
+  "sample_bytes_requested": 0,
+  "avg_text_chars": 0
+ }
+}

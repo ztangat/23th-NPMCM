@@ -1,0 +1,2 @@
+﻿Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Requirement already satisfied: pip in C:\Users\dkyyt\.workbuddy\binaries\python\envs\default\Lib\site-packages (26.1.2)

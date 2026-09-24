@@ -1,0 +1,6 @@
+{
+  "quality_activation_budget_FLOPs": 4.605e19,
+  "quality_saturation_budget_FLOPs": 4.433e22,
+  "Lctx_critical_tokens": 30000,
+  "note": "B*以下不投资质量(角点Q*=Q0); B*~B**之间质量投资递增; B**以上Q*=1饱和, 预算增量全部投入规模"
+}

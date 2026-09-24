@@ -1,0 +1,25 @@
+{
+ "path": "A_data_value/domain_mapping_guide.csv",
+ "shape": [
+  17,
+  4
+ ],
+ "columns": [
+  "mixture_domain",
+  "quality_domain",
+  "mapping_type",
+  "note"
+ ],
+ "dtypes": {
+  "mixture_domain": "str",
+  "quality_domain": "str",
+  "mapping_type": "str",
+  "note": "str"
+ },
+ "na_counts": {
+  "mixture_domain": 0,
+  "quality_domain": 0,
+  "mapping_type": 0,
+  "note": 0
+ }
+}

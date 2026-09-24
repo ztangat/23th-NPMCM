@@ -1,0 +1,25 @@
+{
+ "path": "attachment_size_summary.csv",
+ "shape": [
+  2012,
+  4
+ ],
+ "columns": [
+  "file",
+  "bytes",
+  "MB",
+  "GB"
+ ],
+ "dtypes": {
+  "file": "str",
+  "bytes": "int64",
+  "MB": "float64",
+  "GB": "float64"
+ },
+ "na_counts": {
+  "file": 0,
+  "bytes": 0,
+  "MB": 0,
+  "GB": 0
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "path": "B_scaling_laws/open_model_family_metadata.csv",
+ "shape": [
+  18,
+  8
+ ],
+ "columns": [
+  "family",
+  "model_repo",
+  "config_bytes",
+  "readme_bytes",
+  "weight_file_count",
+  "weight_total_bytes",
+  "source_url",
+  "error"
+ ],
+ "dtypes": {
+  "family": "str",
+  "model_repo": "str",
+  "config_bytes": "int64",
+  "readme_bytes": "int64",
+  "weight_file_count": "int64",
+  "weight_total_bytes": "int64",
+  "source_url": "str",
+  "error": "float64"
+ },
+ "na_counts": {
+  "family": 0,
+  "model_repo": 0,
+  "config_bytes": 0,
+  "readme_bytes": 0,
+  "weight_file_count": 0,
+  "weight_total_bytes": 0,
+  "source_url": 0,
+  "error": 18
+ }
+}

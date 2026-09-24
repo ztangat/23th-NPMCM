@@ -1,0 +1,34 @@
+{
+ "path": "C_efficiency_evolution/model_architecture_metadata.csv",
+ "shape": [
+  45,
+  7
+ ],
+ "columns": [
+  "model_name",
+  "n_layers",
+  "n_heads",
+  "d_model",
+  "vocab_size",
+  "max_position_embeddings",
+  "training_data_TB"
+ ],
+ "dtypes": {
+  "model_name": "str",
+  "n_layers": "int64",
+  "n_heads": "int64",
+  "d_model": "int64",
+  "vocab_size": "int64",
+  "max_position_embeddings": "int64",
+  "training_data_TB": "float64"
+ },
+ "na_counts": {
+  "model_name": 0,
+  "n_layers": 0,
+  "n_heads": 0,
+  "d_model": 0,
+  "vocab_size": 0,
+  "max_position_embeddings": 0,
+  "training_data_TB": 0
+ }
+}

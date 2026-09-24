@@ -1,0 +1,4 @@
+candidate,gbm_pred,pct_among_20000_random
+slsqp_gbm_opt,4.721987860170365,0.0362
+uniform,4.6976055363019755,0.0061
+random_best_of_20000,4.656663851259521,0.0

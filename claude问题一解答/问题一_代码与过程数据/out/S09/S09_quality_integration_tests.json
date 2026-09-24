@@ -1,0 +1,51 @@
+{
+ "n_domains_with_Q": 7,
+ "domains_with_Q": [
+  "arxiv",
+  "github",
+  "dm_mathematics",
+  "nih_exporter",
+  "pubmed_central",
+  "philpapers",
+  "pubmed_abstracts"
+ ],
+ "rank_of_[p,Q_mix]": 17,
+ "n_columns": 18,
+ "structured_model_coef[a,Q·cov,H,cov]": [
+  6.01017191960443,
+  -0.40000750584200706,
+  -0.5516318972136136,
+  0.3565768451102578
+ ],
+ "structured_model_test1M_R2": 0.6733814783997232,
+ "cox_effect_vs_Q": {
+  "arxiv": {
+   "Q": 0.8237810851174489,
+   "cox_effect": 0.04026801687459791
+  },
+  "github": {
+   "Q": 0.5334892254867575,
+   "cox_effect": 0.037353973566844445
+  },
+  "dm_mathematics": {
+   "Q": 0.7221789342467069,
+   "cox_effect": 0.016052581207061323
+  },
+  "nih_exporter": {
+   "Q": 0.751208120209776,
+   "cox_effect": 0.08567513545934258
+  },
+  "pubmed_central": {
+   "Q": 0.7657227131913106,
+   "cox_effect": 0.02647586604855512
+  },
+  "philpapers": {
+   "Q": 0.7657227131913106,
+   "cox_effect": -0.03164952779978236
+  },
+  "pubmed_abstracts": {
+   "Q": 0.751208120209776,
+   "cox_effect": 0.014130498761022459
+  }
+ }
+}

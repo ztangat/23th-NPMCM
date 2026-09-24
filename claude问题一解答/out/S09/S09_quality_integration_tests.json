@@ -1,0 +1,101 @@
+{
+ "n_domains_with_Q": 17,
+ "domains_with_Q": [
+  "arxiv",
+  "github",
+  "stackexchange",
+  "wikipedia_en",
+  "gutenberg_pg_19",
+  "pile_cc",
+  "dm_mathematics",
+  "freelaw",
+  "nih_exporter",
+  "pubmed_central",
+  "philpapers",
+  "enron_emails",
+  "ubuntu_irc",
+  "europarl",
+  "hackernews",
+  "pubmed_abstracts",
+  "uspto_backgrounds"
+ ],
+ "rank_of_[p,Q_mix]": 17,
+ "n_columns": 18,
+ "structured_model_coef[a,Q·cov,H,cov]": [
+  3.0928890170793846,
+  -0.19589854273896812,
+  -0.5555275783311434,
+  3.092889017079377
+ ],
+ "structured_model_test1M_R2": 0.6538220024886621,
+ "cox_effect_vs_Q": {
+  "arxiv": {
+   "Q": 0.804340637468361,
+   "cox_effect": 0.040268016874596135
+  },
+  "github": {
+   "Q": 0.554817220646689,
+   "cox_effect": 0.03735397356684356
+  },
+  "stackexchange": {
+   "Q": 0.6674442442920898,
+   "cox_effect": 0.0015736133448296385
+  },
+  "wikipedia_en": {
+   "Q": 0.6400573105939013,
+   "cox_effect": 0.016450015349980696
+  },
+  "gutenberg_pg_19": {
+   "Q": 0.6659629939973026,
+   "cox_effect": 0.030175319995148442
+  },
+  "pile_cc": {
+   "Q": 0.6647076465487431,
+   "cox_effect": 0.0006037813812058701
+  },
+  "dm_mathematics": {
+   "Q": 0.7062152178962545,
+   "cox_effect": 0.01605258120705244
+  },
+  "freelaw": {
+   "Q": 0.6551224081296292,
+   "cox_effect": 0.03751474239094055
+  },
+  "nih_exporter": {
+   "Q": 0.7342510520597136,
+   "cox_effect": 0.08567513545935324
+  },
+  "pubmed_central": {
+   "Q": 0.748268969141443,
+   "cox_effect": 0.02647586604855956
+  },
+  "philpapers": {
+   "Q": 0.748268969141443,
+   "cox_effect": -0.03164952779978236
+  },
+  "enron_emails": {
+   "Q": 0.6643662841126949,
+   "cox_effect": -0.05033762071944903
+  },
+  "ubuntu_irc": {
+   "Q": 0.6654745777074755,
+   "cox_effect": -0.0038161666982476916
+  },
+  "europarl": {
+   "Q": 0.6551224081296292,
+   "cox_effect": 0.026614653893378915
+  },
+  "hackernews": {
+   "Q": 0.6654745777074755,
+   "cox_effect": -0.02999828239568103
+  },
+  "pubmed_abstracts": {
+   "Q": 0.7342510520597136,
+   "cox_effect": 0.014130498761022459
+  },
+  "uspto_backgrounds": {
+   "Q": 0.6551224081296292,
+   "cox_effect": 0.02551013026762483
+  }
+ }
+}

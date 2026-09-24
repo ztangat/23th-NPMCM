@@ -1,0 +1,15 @@
+{
+ "split_half_spearman_brown_mean": 0.8777880816283649,
+ "split_half_P5_P95": [
+  0.7522914137851554,
+  0.92997385322258
+ ],
+ "cronbach_alpha_std": 0.8206594896091609,
+ "cronbach_alpha_std_github": 0.7853150545547689,
+ "cronbach_alpha_std_arxiv": 0.7485913303256588,
+ "cronbach_alpha_std_c4": 0.8456376736904072,
+ "cronbach_alpha_std_stackexchange": 0.7451794766289679,
+ "cronbach_alpha_std_wikipedia": 0.85929849665583,
+ "cronbach_alpha_std_commoncrawl": 0.8371901750597267,
+ "cronbach_alpha_std_book": 0.6880966913382475
+}

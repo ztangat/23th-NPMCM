@@ -1,0 +1,85 @@
+﻿path,size_bytes,description
+S01/S01_parse_log.json,318,A2/A3 逐文件解析日志(行数、JSON错误、缺失、列表长度异常)
+S01/S01_sample_level_raw_scalars.csv.gz,41027458,"221,275 条样本的原始标量指标(列表型已压缩, 含 qurater 4 分量)"
+S02/S02_domain_mean_normalized_indicators.csv,1845,各域归一化指标与维度分均值
+S02/S02_domain_raw_indicator_mean_median.csv,2780,各域原始(变换后)指标均值与中位数
+S02/S02_indicator_clustering_check.csv,993,指标层次聚类(k=4/6)与理论维度对照
+S02/S02_indicator_corr_pearson_balanced.csv,10265,域均衡加权 Pearson 相关矩阵
+S02/S02_indicator_corr_spearman_balanced_sub60k.csv,10314,域均衡抽样 6 万条的 Spearman 相关矩阵
+S02/S02_indicator_spec_and_normalization.csv,3717,22 指标规格: 类型/维度/缩尾边界/截断数/归一化均值
+S02/S02_indicator_weights.csv,4015,熵权、CRITIC、组合权、结构等权及中间量
+S02/S02_pca_pc1_loadings.csv,1387,PCA 第一主成分载荷与解释方差
+S02/S02_preprocess_log.json,541,方向锚定检验值、Heaps 拟合系数、非法值截断计数、插补记录
+S03/S03_conflict_by_length_decile.csv,1277,域内长度十分位 × 冲突率
+S03/S03_conflict_cause_logit.csv,645,强冲突 logistic 回归(OR 与 95%CI)
+S03/S03_conflict_cause_logit_meta.json,81,logit 基准域、伪 R²、样本数
+S03/S03_conflict_rate_by_domain.csv,338,分域强冲突率、冲突度、冲突对数、教育高广告高比例
+S03/S03_conflict_typology.csv,1297,强冲突类型(高维/低维)计数与占比
+S03/S03_pairwise_conflict_ranked.csv,40792,231 个指标对冲突率排序(含提升度、分域冲突率)
+S03/S03_pairwise_conflict_rate_balanced.csv,10175,22×22 指标对冲突率矩阵
+S03/S03_spearman_within_arxiv.csv,10502,arxiv 域内 Spearman 矩阵
+S03/S03_spearman_within_github.csv,10414,github 域内 Spearman 矩阵
+S03/S03_within_domain_corr_shift.csv,24193,指标对在 arxiv/github 域内相关差异排序
+S04/S04_domain_adaptive_trust_weights.csv,5559,域自适应可信度 ρ、τ 与调整后权重
+S04/S04_domain_level_Q_all_methods.csv,2110,"域级 Q(5 种评分 × 多种聚合口径, bootstrap CI)"
+S04/S04_lambda_sensitivity.csv,346,悲观惩罚系数 λ 敏感性
+S04/S04_leave_one_indicator_out_stability.csv,1355,留一指标秩稳定性(组合权 vs 消解)
+S04/S04_method_rank_consistency_spearman.csv,481,不同评分方法之间的秩相关
+S04/S04_sample_level_scores.csv.gz,27973568,"221,275 条样本级: 22 个归一化指标、维度分、各 Q、冲突度/类型"
+S04/S04_selection_effect_top30.csv,541,前 30% 选取中的冲突占比与重合度
+S05/S05_reliability.json,269,Cronbach α、分半信度
+S06/S06_clean_est_10B.csv,18950,"S06 清洗后数据集(配比已归一化, 含 L_avg)"
+S06/S06_clean_est_70B.csv,18943,"S06 清洗后数据集(配比已归一化, 含 L_avg)"
+S06/S06_clean_test_1B.csv,23246,"S06 清洗后数据集(配比已归一化, 含 L_avg)"
+S06/S06_clean_test_1M.csv,111099,"S06 清洗后数据集(配比已归一化, 含 L_avg)"
+S06/S06_clean_test_60M.csv,111843,"S06 清洗后数据集(配比已归一化, 含 L_avg)"
+S06/S06_clean_train_1M.csv,226289,"S06 清洗后数据集(配比已归一化, 含 L_avg)"
+S06/S06_data_audit.csv,971,配方/Loss 表审计(行和、零份额、Loss 统计)
+S06/S06_mixture_descriptives.csv,8049,各数据集 17 域配比描述统计
+S06/S06_spearman_share_vs_loss_train.csv,4966,训练集 17 域份额与 13 域 Loss 的 Spearman
+S07/S07_hyperparameter_cv.csv,12853,岭 α、ε 的 5 折 CV 全记录
+S07/S07_predictions_L_avg_per_mixture.csv,146356,所有数据集逐配方 L_avg 观测与各模型预测
+S07/S07_selected_hyperparameters.json,1262,选定超参数
+S07/S07_topk_hit_L_avg.csv,1650,Top-k 命中率
+S07/S07_validation_all_models_all_targets.csv,28666,6 模型 × 14 目标 × 训练/CV/1M/60M/1B 全部指标
+S07/S07_validation_summary_mean_over_targets.csv,2179,各模型跨目标平均
+S07/run_log.txt,2261,运行日志
+S08/S08_M6_cox_effect_matrix_17x14.csv,5338,M6 Cox 效应矩阵
+S08/S08_M6_cox_effect_plus0.1_bootstrap.csv,33861,M6 Cox 效应、CI、β、γ(14 目标)
+S08/S08_M6_gamma_log_matrix_17x14.csv,5610,M6 弹性 γ 矩阵
+S08/S08_cox_effect_matrix_17x14.csv,5350,线性模型 Cox 效应矩阵
+S08/S08_cox_effect_plus0.1_bootstrap.csv,22764,线性模型 Cox 效应及 CI
+S08/S08_diversity_vs_loss_by_scale.csv,471,配比熵/零份额数与 L_avg 的秩相关(6 数据集)
+S08/S08_domain_pair_interactions_ridge_L_avg.csv,14169,136 个域对交互系数与 bootstrap CI
+S08/S08_family_definition.csv,410,领域族定义
+S08/S08_family_quadratic_scheffe_interactions.csv,15670,族二次 Scheffé 系数(5 目标)与 CI
+S08/S08_lightgbm_shap_importance_L_avg.csv,928,LightGBM SHAP 重要性
+S08/S08_optimal_mixture.csv,1901,三种最优配比与参照、信赖域上界
+S08/S08_optimal_mixture_predicted_loss.csv,504,各配比在各模型下的预测 L_avg
+S08/S08_optimum_vs_observed_top10_by_scale.csv,1339,最优配比与各尺度实测最优 10 配方的一致性
+S08/S08_reference_mixture_mean.csv,553,参照配比(实验配方均值)
+S08/S08_scheffe_linear_coefficients_bootstrap.csv,19819,线性 Scheffé 系数与 bootstrap CI(14 目标)
+S09/S09_1M_models_rank_on_est_tables.csv,679,1M 模型对外推表的排序相关
+S09/S09_M6_cox_effect_L_avg_by_scale.csv,2396,M6 各尺度域效应
+S09/S09_M6_effect_rank_agreement_across_scales.csv,902,M6 域效应跨尺度一致性
+S09/S09_cox_effect_L_avg_by_scale.csv,2423,线性模型各尺度域效应
+S09/S09_domain_Q_mapping_17.csv,1542,17 配方域→质量域映射、置信度、Q 与收缩 Q
+S09/S09_effect_rank_agreement_across_scales.csv,894,线性模型域效应跨尺度一致性
+S09/S09_extrapolation_consistency.csv,2890,外推表内部与跨尺度一致性(14 目标)
+S09/S09_linear_optimum_L1_distance.csv,589,各尺度最优配比 L1 距离
+S09/S09_linear_optimum_by_scale.csv,1175,各尺度线性最优配比
+S09/S09_mixture_level_Qmix.csv,36187,各配方的 Q_mix 与覆盖份额
+S09/S09_quality_integration_tests.json,1050,共线性秩检验、结构化模型系数
+S09/S09_quality_structured_ablation.csv,662,Q 增量解释力嵌套消融
+figures/F01_indicator_spearman.png,295764,图表
+figures/F02_weights.png,81635,图表
+figures/F03_Q_distribution.png,39829,图表
+figures/F04_pairwise_conflict.png,254580,图表
+figures/F05_conflict_type_length.png,145213,图表
+figures/F06_corr_shift.png,63710,图表
+figures/F07_model_validation.png,66295,图表
+figures/F08_cox_effect_heatmap.png,201588,图表
+figures/F09_pred_vs_obs.png,150999,图表
+figures/F10_optimal_mixture.png,83647,图表
+figures/F11_extrapolation.png,72868,图表
+figures/F12_family_interactions.png,68487,图表

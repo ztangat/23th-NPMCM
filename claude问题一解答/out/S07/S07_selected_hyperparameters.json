@@ -1,0 +1,49 @@
+{
+ "best_ridge_alpha": {
+  "loss_arxiv": 0.03,
+  "loss_freelaw": 0.01,
+  "loss_pubmed_central": 0.03,
+  "loss_wikipedia_en": 0.01,
+  "loss_dm_mathematics": 0.0001,
+  "loss_github": 0.03,
+  "loss_stackexchange": 0.01,
+  "loss_gutenberg_pg_19": 0.001,
+  "loss_pile_cc": 0.01,
+  "loss_ubuntu_irc": 1e-05,
+  "loss_hackernews": 1e-06,
+  "loss_pubmed_abstracts": 0.001,
+  "loss_uspto_backgrounds": 0.001,
+  "L_avg": 0.0001
+ },
+ "best_ownlog_eps": {
+  "loss_arxiv": 0.0001,
+  "loss_freelaw": 0.001,
+  "loss_pubmed_central": 0.0001,
+  "loss_wikipedia_en": 0.001,
+  "loss_dm_mathematics": 0.0001,
+  "loss_github": 0.0001,
+  "loss_stackexchange": 0.001,
+  "loss_gutenberg_pg_19": 0.001,
+  "loss_pile_cc": 0.01,
+  "loss_ubuntu_irc": 0.0001,
+  "loss_hackernews": 0.0001,
+  "loss_pubmed_abstracts": 0.001,
+  "loss_uspto_backgrounds": 0.001
+ },
+ "best_logshare_eps": {
+  "loss_arxiv": 0.0001,
+  "loss_freelaw": 0.001,
+  "loss_pubmed_central": 0.0001,
+  "loss_wikipedia_en": 0.001,
+  "loss_dm_mathematics": 0.0001,
+  "loss_github": 0.0001,
+  "loss_stackexchange": 0.001,
+  "loss_gutenberg_pg_19": 0.001,
+  "loss_pile_cc": 0.003,
+  "loss_ubuntu_irc": 0.0001,
+  "loss_hackernews": 0.0001,
+  "loss_pubmed_abstracts": 0.003,
+  "loss_uspto_backgrounds": 0.003,
+  "L_avg": 0.001
+ }
+}

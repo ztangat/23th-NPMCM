@@ -1,0 +1,16 @@
+scale_a,scale_b,L1_distance
+1M(train),1M(train+test),0.0
+1M(train),60M(test),0.23423423423423428
+1M(train),1B(test),0.3939239239239236
+1M(train),10B(est),1.721837837837838
+1M(train),70B(est),1.721837837837838
+1M(train+test),60M(test),0.23423423423423428
+1M(train+test),1B(test),0.3939239239239236
+1M(train+test),10B(est),1.721837837837838
+1M(train+test),70B(est),1.721837837837838
+60M(test),1B(test),0.3939239239239236
+60M(test),10B(est),1.721837837837838
+60M(test),70B(est),1.721837837837838
+1B(test),10B(est),1.8378378378378377
+1B(test),70B(est),1.8378378378378377
+10B(est),70B(est),0.0

@@ -1,0 +1,18 @@
+[
+ {
+  "file": "arxiv_part-6777d8857c6e-000486.jsonl.xz",
+  "n_lines_parsed": 17523,
+  "bad_json": 0,
+  "missing": {},
+  "bad_list_len": {},
+  "set": "A2"
+ },
+ {
+  "file": "github_part-6777d8857c6e-000275.jsonl.xz",
+  "n_lines_parsed": 203752,
+  "bad_json": 0,
+  "missing": {},
+  "bad_list_len": {},
+  "set": "A3"
+ }
+]

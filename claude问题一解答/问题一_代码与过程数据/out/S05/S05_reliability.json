@@ -1,0 +1,10 @@
+{
+ "split_half_spearman_brown_mean": 0.9220846737199645,
+ "split_half_P5_P95": [
+  0.8909797181887938,
+  0.9462894121570289
+ ],
+ "cronbach_alpha_std": 0.8951275642295601,
+ "cronbach_alpha_std_github": 0.785253245900216,
+ "cronbach_alpha_std_arxiv": 0.7526886162469341
+}

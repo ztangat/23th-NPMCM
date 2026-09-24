@@ -1,0 +1,68 @@
+{
+ "log": {
+  "n_total": 272505,
+  "by_set_domain": [
+   [
+    "A1",
+    "arxiv",
+    1419
+   ],
+   [
+    "A1",
+    "book",
+    171
+   ],
+   [
+    "A1",
+    "c4",
+    10000
+   ],
+   [
+    "A1",
+    "commoncrawl",
+    9640
+   ],
+   [
+    "A1",
+    "github",
+    10000
+   ],
+   [
+    "A1",
+    "stackexchange",
+    10000
+   ],
+   [
+    "A1",
+    "wikipedia",
+    10000
+   ],
+   [
+    "A2",
+    "arxiv",
+    17523
+   ],
+   [
+    "A3",
+    "github",
+    203752
+   ]
+  ]
+ },
+ "preprocess": {
+  "anchor_ad_en_p1_mean_arxiv": 0.9886055067839286,
+  "anchor_fluency_en_p1_mean_arxiv": 0.971543067358341,
+  "top2_gt100": 9,
+  "top3_gt100": 11,
+  "heaps_fit": {
+   "a": 5.070635038499054,
+   "b": -0.21520144191759433,
+   "implied_heaps_beta": 0.7847985580824057
+  },
+  "imputed_missing": {
+   "modernbert_reasoning": 13,
+   "modernbert_professionalism": 6
+  },
+  "n_eff_balanced": 7766.487141413516
+ }
+}

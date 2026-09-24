@@ -1,0 +1,18 @@
+mixture_domain,quality_domain,mapping_type,confidence,rationale,Q_quality_domain,Q_shrunk,Q_available
+arxiv,arxiv,direct,1.0,配方域名与质量信号域名一致,0.8237810851174489,0.8237810851174489,True
+github,github,direct,1.0,配方域名与质量信号域名一致,0.5334892254867575,0.5334892254867575,True
+stackexchange,stackexchange,direct,1.0,配方域名与质量信号域名一致,,,False
+wikipedia_en,wikipedia,near_direct,0.8,名称略有差异，语义对应,,,False
+gutenberg_pg_19,book,near_direct,0.8,书籍类文本，可参考 book 域质量信号,,,False
+pile_cc,commoncrawl,near_direct,0.8,网页抓取类文本，可参考 commoncrawl 域质量信号,,,False
+dm_mathematics,arxiv,inferred,0.3,数学符号/题目文本,0.8237810851174489,0.7221789342467069,True
+freelaw,wikipedia,inferred,0.3,正式说明性长文本,,,False
+nih_exporter,arxiv,inferred,0.5,科研项目摘要,0.8237810851174489,0.751208120209776,True
+pubmed_central,arxiv,inferred,0.6,学术全文,0.8237810851174489,0.7657227131913106,True
+philpapers,arxiv,inferred,0.6,学术论文,0.8237810851174489,0.7657227131913106,True
+enron_emails,commoncrawl,inferred,0.3,非正式通信文本,,,False
+ubuntu_irc,stackexchange,inferred,0.4,技术问答对话,,,False
+europarl,wikipedia,inferred,0.3,正式议会记录,,,False
+hackernews,stackexchange,inferred,0.4,技术社区讨论,,,False
+pubmed_abstracts,arxiv,inferred,0.5,学术摘要,0.8237810851174489,0.751208120209776,True
+uspto_backgrounds,wikipedia,inferred,0.3,正式技术说明文本,,,False

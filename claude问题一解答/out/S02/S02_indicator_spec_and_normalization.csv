@@ -1,0 +1,23 @@
+indicator,raw_column,type,dimension,note,winsor_P01,winsor_P99,n_clipped_low,n_clipped_high,z_mean_balanced
+fineweb_edu,fineweb_edu,pos,D1语义价值,FineWeb-Edu 教育价值回归分,0.08159097729096183,3.305300890032601,3701,1177,0.4176484845191279
+qurater,qurater,pos,D1语义价值,QuRating 4 维分等权均值,-3.790283203125,6.087890625,2678,1047,0.46147225063127745
+modernbert_reasoning,modernbert_reasoning,pos,D1语义价值,6类logits→期望分(0–5),0.03278717198876347,4.999990485657662,13785,1326,0.4648568067262434
+modernbert_professionalism,modernbert_professionalism,pos,D1语义价值,6类logits→期望分(0–5),1.0008074707830577,4.999977946902477,718,1336,0.5118679883717707
+fluency_en,fluency_en_p1,pos,D2语言规范,"2类logits→P(流畅), 类别方向由arxiv锚定",0.0418129889336804,0.999181666451578,3234,685,0.7648276887519599
+modernbert_readability,modernbert_readability,pos,D2语言规范,6类logits→期望分(0–5),1.0082947242444806,4.99047727859845,6393,1155,0.7453011269283694
+modernbert_cleanliness,modernbert_cleanliness,pos,D2语言规范,6类logits→期望分(0–5),1.0008262827096828,4.999998019864863,14686,772,0.722605250214459
+ad_en,ad_prob,neg,D2语言规范,"2类logits→P(广告)=1−p1, 负向, 补转换 1−x",0.0003125878098696466,0.9396369938451298,993,718,0.9250866876158326
+dsir_books,dsir_books_pw,pos,D3参考域相似,DSIR 对数重要性(总和)/词数,-37.24005674376138,-0.3893876345194232,14244,12,0.7795196134048402
+dsir_wiki,dsir_wiki_pw,pos,D3参考域相似,DSIR 对数重要性(总和)/词数,-37.29762115466817,-0.5753198671902079,14257,13,0.7811047594696279
+dsir_math,dsir_math_pw,pos,D3参考域相似,DSIR 对数重要性(总和)/词数,-35.512589912806526,-0.8524550548427758,14442,14,0.7904216340133288
+rps_doc_word_count,log_word_count,interval,D4统计启发式,"log词数, 适度型, 理想区间[50,1e5]词(Gopher规则)",2.5649493574615367,12.02042551295134,13515,13,0.9452808139855651
+rps_doc_num_sentences,log_num_sentences,interval,D4统计启发式,"log句数, 下限型, 理想≥3句",0.0,9.444278450358059,0,28,0.9794433923719522
+rps_doc_unigram_entropy,rps_doc_unigram_entropy,pos,D4统计启发式,"一元词熵, 词汇多样性",2.29345167,7.037370229486097,13412,56,0.5703833377174157
+rps_doc_frac_unique_words,uniq_heaps_resid,pos,D4统计启发式,去长度效应: log唯一词占比对log词数回归残差(Heaps律),-0.7081283206636056,0.42988834584406344,2537,1190,0.6478236577564832
+rps_doc_frac_no_alph_words,rps_doc_frac_no_alph_words,neg,D4统计启发式,无字母词占比(%),16.87860829390446,99.32306162300988,2481,702,0.8671228287995969
+rps_doc_frac_chars_top_2gram,top2_clip,neg,D4统计启发式,"高频2-gram字符占比(%), 截断至[0,100]",0.0,19.429082628826105,0,5008,0.8542100889509726
+rps_doc_frac_chars_top_3gram,top3_clip,neg,D4统计启发式,"高频3-gram字符占比(%), 截断至[0,100]",0.0,18.0,0,5266,0.8768370560250943
+rps_lines_uppercase_letter_fraction,rps_lines_uppercase_letter_fraction,neg,D4统计启发式,大写字母占比(%),1.2738853503184715,55.45194885835127,2464,2669,0.5874104306834618
+rps_lines_ending_with_terminal_punctution_mark,rps_lines_ending_with_terminal_punctution_mark,pos,D4统计启发式,以终止标点结尾行占比(%),2.127659574468085,100.0,6704,0,0.5402963554669976
+rps_lines_numerical_chars_fraction,rps_lines_numerical_chars_fraction,neg,D4统计启发式,数字字符占比(%),0.0,18.630154463813433,0,1277,0.8537513568883637
+rps_doc_mean_word_length,rps_doc_mean_word_length,interval,D4统计启发式,"平均词长, 适度型, 理想区间[3,10](Gopher规则)",3.976975185524988,15.51089411928067,809,14025,0.9731396434330091

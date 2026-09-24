@@ -1,0 +1,26 @@
+[
+ {
+  "file": "slimpajama_quality_signal_sample.jsonl",
+  "n_lines_parsed": 51230,
+  "bad_json": 0,
+  "missing": {},
+  "bad_list_len": {},
+  "set": "A1"
+ },
+ {
+  "file": "arxiv_part-6777d8857c6e-000486.jsonl",
+  "n_lines_parsed": 17523,
+  "bad_json": 0,
+  "missing": {},
+  "bad_list_len": {},
+  "set": "A2"
+ },
+ {
+  "file": "github_part-6777d8857c6e-000275.jsonl",
+  "n_lines_parsed": 203752,
+  "bad_json": 0,
+  "missing": {},
+  "bad_list_len": {},
+  "set": "A3"
+ }
+]

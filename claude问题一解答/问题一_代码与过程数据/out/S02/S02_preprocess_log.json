@@ -1,0 +1,32 @@
+{
+ "log": {
+  "n_total": 221275,
+  "by_set_domain": [
+   [
+    "A2",
+    "arxiv",
+    17523
+   ],
+   [
+    "A3",
+    "github",
+    203752
+   ]
+  ]
+ },
+ "preprocess": {
+  "anchor_ad_en_p1_mean_arxiv": 0.9885296324902717,
+  "anchor_fluency_en_p1_mean_arxiv": 0.971441789717903,
+  "top2_gt100": 7,
+  "top3_gt100": 9,
+  "heaps_fit": {
+   "a": 5.073792479893697,
+   "b": -0.2206639623190158,
+   "implied_heaps_beta": 0.7793360376809841
+  },
+  "imputed_missing": {
+   "modernbert_professionalism": 1
+  },
+  "n_eff_balanced": 64541.34079313075
+ }
+}

@@ -1,0 +1,171 @@
+[START] s4_mapping @ 2026-09-24 18:05:22
+===== 1) 质量域 RPS 指纹 =====
+  质量域指纹（原始）:
+               rps_doc_word_count  rps_doc_num_sentences  rps_doc_unigram_entropy  rps_doc_frac_unique_words  rps_doc_frac_no_alph_words  rps_doc_frac_chars_top_2gram  rps_doc_frac_chars_top_3gram  rps_lines_uppercase_letter_fraction  rps_lines_numerical_chars_fraction  rps_doc_mean_word_length
+质量域                                                                                                                                                                                                                                                                                                    
+arxiv                 6716.737139             440.793517                 5.906576                  25.119904                   30.509617                      1.165897                      0.889239                            19.505270                            4.122668                  5.827555
+book                 80082.818713            5379.871345                 6.583408                  12.872540                   23.246071                      0.799028                      0.300403                            46.830914                            3.334216                  4.575860
+c4                     383.825500              24.425100                 4.518401                  60.567390                   20.662007                      3.461261                      2.826712                             4.270052                            1.242978                  4.886565
+commoncrawl           1190.758817              68.864212                 5.233882                  48.179220                   21.228087                      2.428935                      2.199988                             8.346239                            2.787046                  4.992808
+github                 348.108600              70.051500                 3.861197                  60.252057                   35.252816                      3.724200                      3.110800                            22.785942                            1.465789                  9.787583
+stackexchange          288.605500              33.821100                 4.500694                  55.193005                   30.893371                      3.522751                      3.546982                            28.671209                            3.344911                  5.635204
+wikipedia              385.045300              22.953400                 4.361842                  62.397622                   32.952675                      5.147510                      3.204000                            35.545913                            3.419281                  5.768736
+
+===== 2) 从 A18 regmix_domain_sample 流式抽取配方域文本指纹 =====
+  实际路径: C:/Users/dkyyt/Desktop/F题\real_attachments\A_data_value\regmix_domain_sample.jsonl\regmix_domain_sample.jsonl, 存在=True
+  ... 扫描 80000 行
+  A18 总行数=138034; 采集域数=17
+
+  配方域文本指纹（原始）:
+                   rps_doc_word_count  rps_doc_num_sentences  rps_doc_unigram_entropy  rps_doc_frac_unique_words  rps_doc_frac_no_alph_words  rps_doc_frac_chars_top_2gram  rps_doc_frac_chars_top_3gram  rps_lines_uppercase_letter_fraction  rps_lines_numerical_chars_fraction  rps_doc_mean_word_length
+配方域                                                                                                                                                                                                                                                                                                        
+arxiv                     6213.835864             656.213785                 6.101933                  34.378798                    6.720703                      2.462753                      1.750233                             3.994828                            3.204996                  6.389757
+dm_mathematics            1760.181061             343.000520                 4.613077                  31.748849                   40.433429                      3.695765                      2.486220                             3.304825                           24.726295                  4.024641
+enron_emails               228.200990              41.764356                 4.127561                  74.255022                    7.229721                      4.570742                      3.570285                             9.389355                            4.662589                  5.585755
+europarl                  7623.191083             397.012739                 5.879288                  49.223884                    1.850937                      2.619213                      1.013388                             2.634694                            0.491704                  6.019149
+freelaw                   2420.964333             299.590000                 5.291480                  48.117073                    8.951366                      2.810188                      1.954890                             9.528292                            5.510507                  5.241581
+github                     533.189000             199.360667                 4.100527                  59.524418                   22.572261                      4.147574                      3.022775                             9.589517                            3.989345                  9.132442
+gutenberg_pg_19          65783.708861            8882.088608                 6.705831                  18.957205                    1.932943                      3.275695                      2.204239                             3.655146                            0.671174                  4.637343
+hackernews                 843.344280             141.971398                 4.749721                  67.203388                    5.151297                      2.534720                      1.491567                             3.439422                            1.860276                  6.128065
+nih_exporter               304.064225              13.298301                 4.629204                  58.376635                    1.233960                      2.625144                      1.464420                             3.493221                            0.663174                  5.895672
+philpapers               12226.238095             803.777778                 6.249879                  29.939121                    4.426656                      2.672302                      1.562184                             3.556676                            2.070798                  5.357140
+pile_cc                    723.211667              55.874667                 4.845735                  60.039979                    2.271533                      2.722962                      1.612786                             4.600266                            1.224629                  5.503219
+pubmed_abstracts           194.252000              11.653000                 4.383911                  61.405564                    2.930026                      2.702358                      1.451526                             3.162885                            1.573270                  5.934478
+pubmed_central            4119.406580             405.941637                 5.751611                  40.412766                    8.480394                      2.917329                      2.303737                             4.280767                            6.541858                  6.958314
+stackexchange              293.398667              63.581333                 4.645498                  60.135238                    7.980390                      2.780432                      1.717624                             5.575667                            2.035578                  5.923283
+ubuntu_irc               34980.437500            4663.000000                 5.774383                  40.345250                    4.771100                      2.111475                      1.144153                             2.747610                            4.333969                  5.839604
+uspto_backgrounds          641.578000              35.014333                 4.699687                  46.491884                    1.513215                      2.773352                      1.798846                             1.913839                            1.074907                  5.381720
+wikipedia_en               465.013667              42.810667                 4.430789                  61.422326                    5.055319                      2.899531                      1.754358                             7.295331                            3.083698                  5.682236
+
+  口径校准：L1/L2 对应域上 10 指标的平均相对偏差
+                                         mean       std
+指标                                                     
+rps_doc_unigram_entropy              0.014333  0.051936
+rps_doc_word_count                  -0.019558  0.343766
+rps_doc_mean_word_length             0.039265  0.069505
+rps_lines_numerical_chars_fraction  -0.050339  1.013204
+rps_doc_frac_unique_words            0.232984  0.197895
+rps_lines_uppercase_letter_fraction -0.710129  0.191470
+rps_doc_num_sentences                0.735383  0.737553
+rps_doc_frac_no_alph_words          -0.738189  0.224094
+rps_doc_frac_chars_top_2gram         0.847187  1.353527
+rps_doc_frac_chars_top_3gram         1.298976  2.872457
+
+===== 3) 文本形态相似度匹配（L3 推断） =====
+  尺度(每指标, IQR 与下限取大): {'doc_word_count': np.float64(2.8257), 'doc_num_sentences': np.float64(2.3165), 'doc_unigram_entropy': np.float64(1.3174), 'doc_frac_unique_words': np.float64(21.4773), 'doc_frac_no_alph_words': np.float64(18.6882), 'doc_frac_chars_top_2gram': np.float64(0.8785), 'doc_frac_chars_top_3gram': np.float64(1.0866), 'lines_uppercase_letter_fraction': np.float64(6.0638), 'lines_numerical_chars_fraction': np.float64(2.6126), 'doc_mean_word_length': np.float64(0.6274)}
+
+  可靠性权重（口径一致度，由 L1/L2 锚点域估计）：
+                                 指标  锚点中位相对偏差    口径一致度
+                 rps_doc_word_count  0.193120 0.838139
+              rps_doc_num_sentences  0.758049 0.568812
+            rps_doc_unigram_entropy  0.032624 0.968407
+          rps_doc_frac_unique_words  0.167862 0.856265
+         rps_doc_frac_no_alph_words  0.813154 0.551525
+       rps_doc_frac_chars_top_2gram  0.323717 0.755449
+       rps_doc_frac_chars_top_3gram  0.484099 0.673809
+rps_lines_uppercase_letter_fraction  0.794978 0.557110
+ rps_lines_numerical_chars_fraction  0.476020 0.677498
+           rps_doc_mean_word_length  0.059029 0.944262
+
+  指标综合权重: {'doc_word_count': np.float64(0.105), 'doc_num_sentences': np.float64(0.074), 'doc_unigram_entropy': np.float64(0.115), 'doc_frac_unique_words': np.float64(0.107), 'doc_frac_no_alph_words': np.float64(0.114), 'doc_frac_chars_top_2gram': np.float64(0.091), 'doc_frac_chars_top_3gram': np.float64(0.091), 'lines_uppercase_letter_fraction': np.float64(0.097), 'lines_numerical_chars_fraction': np.float64(0.102), 'doc_mean_word_length': np.float64(0.103)}
+  arxiv              → commoncrawl(d=0.92,ρ=+0.81), arxiv(d=1.09,ρ=+0.82), c4(d=1.22,ρ=+0.82)
+  dm_mathematics     → commoncrawl(d=2.81,ρ=+0.58), c4(d=2.98,ρ=+0.50), arxiv(d=3.00,ρ=+0.62)
+  enron_emails       → c4(d=0.82,ρ=+0.71), commoncrawl(d=1.08,ρ=+0.83), stackexchange(d=1.19,ρ=+0.78)
+  europarl           → commoncrawl(d=0.89,ρ=+0.54), c4(d=1.09,ρ=+0.67), arxiv(d=1.27,ρ=+0.45)
+  freelaw            → commoncrawl(d=0.49,ρ=+0.89), c4(d=0.86,ρ=+0.59), arxiv(d=1.05,ρ=+0.93)
+  github             → github(d=0.87,ρ=+0.98), stackexchange(d=2.08,ρ=+0.90), wikipedia(d=2.23,ρ=+0.85)
+  gutenberg_pg_19    → commoncrawl(d=1.11,ρ=+0.44), c4(d=1.31,ρ=+0.53), arxiv(d=1.54,ρ=+0.38)
+  hackernews         → commoncrawl(d=0.81,ρ=+0.76), c4(d=0.89,ρ=+0.88), arxiv(d=1.35,ρ=+0.71)
+  nih_exporter       → commoncrawl(d=0.79,ρ=+0.49), c4(d=0.79,ρ=+0.64), arxiv(d=1.44,ρ=+0.32)
+  philpapers         → commoncrawl(d=0.73,ρ=+0.66), c4(d=1.04,ρ=+0.71), arxiv(d=1.16,ρ=+0.64)
+  pile_cc            → commoncrawl(d=0.59,ρ=+0.61), c4(d=0.64,ρ=+0.73), arxiv(d=1.34,ρ=+0.47)
+  pubmed_abstracts   → c4(d=0.79,ρ=+0.85), commoncrawl(d=0.81,ρ=+0.73), arxiv(d=1.47,ρ=+0.55)
+  pubmed_central     → commoncrawl(d=1.20,ρ=+0.73), arxiv(d=1.33,ρ=+0.71), c4(d=1.42,ρ=+0.75)
+  stackexchange      → commoncrawl(d=0.65,ρ=+0.90), c4(d=0.72,ρ=+0.95), arxiv(d=1.29,ρ=+0.83)
+  ubuntu_irc         → commoncrawl(d=0.96,ρ=+0.60), arxiv(d=1.11,ρ=+0.58), c4(d=1.32,ρ=+0.64)
+  uspto_backgrounds  → commoncrawl(d=0.61,ρ=+0.39), c4(d=0.62,ρ=+0.61), arxiv(d=1.42,ρ=+0.26)
+  wikipedia_en       → commoncrawl(d=0.60,ρ=+0.90), c4(d=0.67,ρ=+0.78), arxiv(d=1.29,ρ=+0.81)
+
+===== 4) 17 配方域质量 Q 迁移 =====
+  质量信号域级 Q（基准）:
+    arxiv          Q=0.7569 sd=0.1079 p10=0.6233 n=1419
+    stackexchange  Q=0.6161 sd=0.1480 p10=0.4203 n=10000
+    commoncrawl    Q=0.5967 sd=0.1916 p10=0.3654 n=9640
+    c4             Q=0.5677 sd=0.1901 p10=0.3367 n=10000
+    github         Q=0.4107 sd=0.1736 p10=0.1849 n=10000
+    book           Q=0.3660 sd=0.1837 p10=0.1533 n=171
+    wikipedia      Q=0.3630 sd=0.1913 p10=0.1193 n=10000
+
+  [方法A] 样本级 Q ~ RPS 回归外推
+    样本级 5 折 CV R² = 0.4644 ± 0.0131
+    样本级拟合 R² = 0.4653, alpha=1
+    系数（标准化，Top-6）：
+                                 指标     标准化系数
+                 rps_doc_word_count -0.230478
+            rps_doc_unigram_entropy  0.223815
+          rps_doc_frac_unique_words -0.093799
+              rps_doc_num_sentences  0.045122
+       rps_doc_frac_chars_top_2gram -0.026409
+rps_lines_uppercase_letter_fraction -0.024705
+
+    [方法A 自检] 锚点域上：样本级域均值 vs 应用A18指纹的预测
+            配方域         对应质量域   质量域实际Q   方法A预测Q        偏差
+          arxiv         arxiv 0.756879 0.679862 -0.077017
+         github        github 0.410714 0.335999 -0.074715
+  stackexchange stackexchange 0.616056 0.593283 -0.022774
+   wikipedia_en     wikipedia 0.363002 0.433105  0.070103
+gutenberg_pg_19          book 0.365994 0.640834  0.274840
+        pile_cc   commoncrawl 0.596663 0.501962 -0.094701
+
+  方法A(回归佐证) vs 方法B(迁移主估) 的 Spearman = 0.2426
+  方法B vs 语义先验 的 Spearman = 0.8981
+  方法A vs 语义先验 的 Spearman = 0.4105
+
+  17 配方域质量 Q 最终表（按 Q_点估计 降序）:
+              配方域        映射层级    Q_点估计  Q_方法B迁移  Q_方法A回归佐证  Q_语义先验  Q_合成不确定度
+            arxiv      direct 0.756879 0.756879   0.679862   0.757  0.107902
+       ubuntu_irc    inferred 0.642383 0.642383   0.343440   0.600  0.186727
+   pubmed_central    inferred 0.640192 0.640192   0.580268   0.640  0.187277
+   dm_mathematics    inferred 0.638202 0.638202   0.363969   0.630  0.187748
+         europarl    inferred 0.624065 0.624065   0.507935   0.620  0.190171
+       philpapers    inferred 0.622923 0.622923   0.649899   0.620  0.190270
+    stackexchange      direct 0.616056 0.616056   0.593283   0.616  0.148006
+          freelaw    inferred 0.612996 0.612996   0.504306   0.620  0.191229
+       hackernews    inferred 0.612077 0.612077   0.437318   0.600  0.191459
+     nih_exporter    inferred 0.605294 0.605294   0.556589   0.600  0.191873
+ pubmed_abstracts    inferred 0.604471 0.604471   0.540867   0.600  0.191914
+uspto_backgrounds    inferred 0.597608 0.597608   0.551755   0.600  0.192003
+          pile_cc near_direct 0.596663 0.596663   0.501962   0.597  0.191553
+     enron_emails    inferred 0.587111 0.587111   0.373742   0.580  0.182688
+           github      direct 0.410714 0.410714   0.335999   0.411  0.173578
+  gutenberg_pg_19 near_direct 0.365994 0.365994   0.640834   0.366  0.183716
+     wikipedia_en near_direct 0.363002 0.363002   0.433105   0.363  0.191297
+
+===== 5) 稳健性检验 =====
+  (a) 全局 vs 仅两域拟合：
+              配方域    全局拟合Q    两域拟合Q        差异
+            arxiv 0.679862 0.801560 -0.121698
+          freelaw 0.504306 0.665390 -0.161083
+     nih_exporter 0.556589 0.694603 -0.138014
+   pubmed_central 0.580268 0.716213 -0.135945
+     wikipedia_en 0.433105 0.596410 -0.163305
+   dm_mathematics 0.363969 0.419402 -0.055433
+           github 0.335999 0.414339 -0.078341
+       philpapers 0.649899 0.813458 -0.163560
+    stackexchange 0.593283 0.676116 -0.082833
+     enron_emails 0.373742 0.536321 -0.162579
+  gutenberg_pg_19 0.640834 0.836352 -0.195518
+          pile_cc 0.501962 0.670364 -0.168401
+       ubuntu_irc 0.343440 0.602912 -0.259472
+         europarl 0.507935 0.727307 -0.219372
+       hackernews 0.437318 0.606083 -0.168765
+ pubmed_abstracts 0.540867 0.662892 -0.122025
+uspto_backgrounds 0.551755 0.690521 -0.138766
+    Spearman = 0.9093, 平均绝对差 = 0.1491
+
+  (b) 扩展集 Q 与抽样集同类域 Q 对照:
+    arxiv  抽样集 Q=0.7569 | 扩展集(N=17523) Q=0.7537 | 差=-0.0032
+    github 抽样集 Q=0.4107 | 扩展集(N=203752) Q=0.4079 | 差=-0.0028
+
+[OK] s4_mapping 完成，耗时 173.7s
+[END] s4_mapping @ 2026-09-24 18:08:15

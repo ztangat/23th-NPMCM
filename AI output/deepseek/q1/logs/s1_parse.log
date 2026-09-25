@@ -1,0 +1,50 @@
+[START] s1_parse @ 2026-09-24 17:38:50
+
+[Pass1] sample step=1
+  n=51230 kept=51230
+
+[Pass1] arxiv step=1
+  n=17523 kept=17523
+
+[Pass1] github step=8
+  n=203752 kept=25469
+[Pass1] 分位池规模 = 94222, 耗时 14.6s
+[Pass1] 列表型指标全缺失记录数 = {'modernbert_reasoning': 13, 'modernbert_professionalism': 5}
+
+[归一化参数] 标量型指标（1%/99% 分位点）
+  dsir_books                                     q01=  -150507.0909 q99=     -181.3567 方向=1
+  dsir_wiki                                      q01=  -150439.2921 q99=     -180.9602 方向=1
+  dsir_math                                      q01=   -98001.9859 q99=     -175.7308 方向=1
+  rps_doc_word_count                             q01=        7.0000 q99=    17947.1600 方向=0
+  rps_doc_num_sentences                          q01=        1.0000 q99=     1310.5800 方向=0
+  rps_doc_unigram_entropy                        q01=        1.7918 q99=        6.4569 方向=1
+  rps_doc_frac_unique_words                      q01=       13.1374 q99=      100.0000 方向=1
+  rps_doc_frac_no_alph_words                     q01=       16.9003 q99=       96.6149 方向=-1
+  rps_doc_frac_chars_top_2gram                   q01=        0.0000 q99=       21.0000 方向=-1
+  rps_doc_frac_chars_top_3gram                   q01=        0.0000 q99=       21.0000 方向=-1
+  rps_lines_uppercase_letter_fraction            q01=        1.2955 q99=       53.2313 方向=-1
+  rps_lines_ending_with_terminal_punctution_mark q01=        0.0000 q99=      100.0000 方向=1
+  rps_lines_numerical_chars_fraction             q01=        0.0000 q99=       17.3647 方向=-1
+  rps_doc_mean_word_length                       q01=        4.0562 q99=       19.0893 方向=0
+
+[Pass2] sample
+  ... 50000
+  缺失填补完成：18 个列表型缺失值 → 以同数据集同指标中位数填充
+  完成 n=51230 解析失败=0 列表型缺失=18
+
+[Pass2] arxiv
+  完成 n=17523 解析失败=0 列表型缺失=0
+
+[Pass2] github
+  ... 50000
+  ... 100000
+  ... 150000
+  ... 200000
+  缺失填补完成：1 个列表型缺失值 → 以同数据集同指标中位数填充
+  完成 n=203752 解析失败=0 列表型缺失=1
+[SAVE] s1_feat_sample.npz  X_raw=(51230, 38) T=(51230, 22)
+[SAVE] s1_feat_arxiv.npz  X_raw=(17523, 38) T=(17523, 22)
+[SAVE] s1_feat_github.npz  X_raw=(203752, 38) T=(203752, 22)
+
+[OK] s1_parse 完成，总耗时 89.3s
+[END] s1_parse @ 2026-09-24 17:40:19

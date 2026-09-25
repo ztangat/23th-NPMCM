@@ -1,0 +1,106 @@
+[START] s3_conflict @ 2026-09-24 17:43:22
+[数据] sample=(51230, 22) arxiv=(17523, 22) github=(203752, 22)
+
+[sample] 冲突度统计（族间标准差 Dfam）
+  mean=0.2402 std=0.0643 p50=0.2431 p90=0.3203 p99=0.3775 max=0.4466
+[sample] 冲突度统计（指标层平均偏差 Dind）
+  mean=0.2601 p50=0.2572 p90=0.3162 max=0.4752
+[sample] 阈值 δ_fam=p90=0.3203 → 冲突样本占比 10.0%
+[sample] 阈值 δ_ind=p90=0.3162 → 冲突样本占比 10.0%
+   数据集             域   样本数  冲突率(Dfam>p90)  冲突率(Dind>p90)   Dfam均值   Dind均值
+sample         arxiv  1419       0.053559       0.126850 0.115331 0.275615
+sample          book   171       0.017544       0.818713 0.143401 0.347789
+sample            c4 10000       0.148700       0.200900 0.256709 0.277788
+sample   commoncrawl  9640       0.016079       0.025726 0.212253 0.243948
+sample        github 10000       0.144200       0.162500 0.265569 0.277628
+sample stackexchange 10000       0.006900       0.008800 0.210853 0.228054
+sample     wikipedia 10000       0.189100       0.083300 0.273979 0.268721
+
+[arxiv_ext] 冲突度统计（族间标准差 Dfam）
+  mean=0.1163 std=0.0776 p50=0.1010 p90=0.2098 p99=0.3770 max=0.4544
+[arxiv_ext] 冲突度统计（指标层平均偏差 Dind）
+  mean=0.2774 p50=0.2700 p90=0.3362 max=0.4390
+[arxiv_ext] 阈值 δ_fam=p90=0.2098 → 冲突样本占比 10.0%
+[arxiv_ext] 阈值 δ_ind=p90=0.3362 → 冲突样本占比 10.0%
+      数据集     域   样本数  冲突率(Dfam>p90)  冲突率(Dind>p90)   Dfam均值   Dind均值
+arxiv_ext arxiv 17523        0.10004        0.10004 0.116315 0.277385
+
+[github_ext] 冲突度统计（族间标准差 Dfam）
+  mean=0.2662 std=0.0561 p50=0.2705 p90=0.3332 p99=0.3863 max=0.4601
+[github_ext] 冲突度统计（指标层平均偏差 Dind）
+  mean=0.2779 p50=0.2709 p90=0.3387 max=0.4983
+[github_ext] 阈值 δ_fam=p90=0.3332 → 冲突样本占比 10.0%
+[github_ext] 阈值 δ_ind=p90=0.3387 → 冲突样本占比 10.0%
+       数据集      域    样本数  冲突率(Dfam>p90)  冲突率(Dind>p90)   Dfam均值   Dind均值
+github_ext github 203752       0.100004       0.100004 0.266209 0.277926
+
+===== 冲突成因 A：方向张力分析 =====
+                                           指标A                                 指标B             冲突含义  Pearson_r             p 冲突方向       强度
+                     rps_doc_frac_unique_words             rps_doc_unigram_entropy         唯一词占比↔词熵  -0.664745  0.000000e+00 负向张力 0.664745
+                                    dsir_books             rps_doc_unigram_entropy     DSIR图书相似度↔词熵  -0.379106  0.000000e+00 负向张力 0.379106
+rps_lines_ending_with_terminal_punctution_mark          rps_doc_frac_no_alph_words        句末标点↔非字母词   0.341389  0.000000e+00 正向协同 0.341389
+                            rps_doc_word_count rps_lines_uppercase_letter_fraction 文档越长↔大写行越多(格式噪声)   0.118910 1.147853e-160 正向协同 0.118910
+                                   fineweb_edu            rps_doc_mean_word_length        教育价值↔平均词长   0.067255  1.936819e-52 正向协同 0.067255
+                                    fluency_en                               ad_en         流畅度↔广告含量  -0.036776  8.318227e-17 负向张力 0.036776
+
+===== 冲突成因 B：三族得分相关矩阵 =====
+  [sample]
+           F1_分类器语义    F2_DSIR重要性       F3_文本统计
+      F1_分类器语义       1.0000       -0.2365        0.2772
+    F2_DSIR重要性      -0.2365        1.0000        0.1846
+       F3_文本统计       0.2772        0.1846        1.0000
+  [arxiv_ext]
+           F1_分类器语义    F2_DSIR重要性       F3_文本统计
+      F1_分类器语义       1.0000        0.2696        0.0852
+    F2_DSIR重要性       0.2696        1.0000        0.5687
+       F3_文本统计       0.0852        0.5687        1.0000
+  [github_ext]
+           F1_分类器语义    F2_DSIR重要性       F3_文本统计
+      F1_分类器语义       1.0000       -0.1148        0.4625
+    F2_DSIR重要性      -0.1148        1.0000        0.0647
+       F3_文本统计       0.4625        0.0647        1.0000
+
+===== 冲突成因 C：域先验差异 =====
+               F1_分类器语义  F2_DSIR重要性   F3_文本统计
+域                                            
+arxiv          0.709648    0.694757  0.638230
+book           0.582521    0.470778  0.540846
+c4             0.480697    0.986922  0.778191
+commoncrawl    0.555733    0.969076  0.741975
+github         0.446724    0.962750  0.640207
+stackexchange  0.584382    0.980016  0.683225
+wikipedia      0.444473    0.983302  0.662077
+
+===== 冲突样本 Top 示例（sample，Dfam 最大） =====
+                  id         域     Dfam  F1_分类器语义  F2_DSIR重要性  F3_文本统计      冲突主导族    冲突弱势族
+BkiUc1U4ubngxaggv_kP        c4 0.446644  0.139012    0.997104 0.783073 F2_DSIR重要性 F1_分类器语义
+BkiUdxLxK7IAD7XMJiA7        c4 0.440421  0.174313    0.990337 0.869539 F2_DSIR重要性 F1_分类器语义
+BkiUbCM4c3aisE1SPMXX wikipedia 0.439767  0.214950    1.000000 0.264024 F2_DSIR重要性 F1_分类器语义
+BkiUakLxK3YB9m7_7ffA        c4 0.436148  0.144672    0.994693 0.739312 F2_DSIR重要性 F1_分类器语义
+BkiUfHo4uzliCsUqrAjY    github 0.433911  0.222494    0.999811 0.276981 F2_DSIR重要性 F1_分类器语义
+BkiUdFc25V5ipNhMBvq9 wikipedia 0.431955  0.202917    0.999239 0.310974 F2_DSIR重要性 F1_分类器语义
+BkiUdKc5qoYDgZr1C7qj wikipedia 0.431031  0.223466    1.000000 0.287528 F2_DSIR重要性 F1_分类器语义
+BkiUfirxK3YB9ohkPTLZ wikipedia 0.430496  0.246459    1.000000 0.262516 F2_DSIR重要性 F1_分类器语义
+
+===== 冲突消解规则构建 =====
+  规则2 族平衡得分 QB_fam: mean=0.7245 std=0.0589
+  规则1 冲突感知得分 QB_aw : mean=0.6862 std=0.0791
+  规则3 可信度门控 QB_gate: mean=0.7257 std=0.0498
+    vs 原组合Q 的 Spearman: 原组合Q       1.0000
+    vs 原组合Q 的 Spearman: 族平衡        0.8999
+    vs 原组合Q 的 Spearman: 冲突感知       0.8824
+    vs 原组合Q 的 Spearman: 可信度门控      0.8379
+
+===== 冲突度与 Q 的关系 =====
+  corr(Q, Dfam) Pearson=-0.8591 Spearman=-0.8825
+  corr(Q, Dind) Pearson=-0.6960 Spearman=-0.6914
+  corr(Q, Q_se) Spearman=-0.3578
+
+===== 扩展集结论一致性检验 =====
+  族间相关符号一致性（分类器族 ↔ 文本统计族）：
+    sample       r(F1,F3) = +0.2772
+    arxiv_ext    r(F1,F3) = +0.0852
+    github_ext   r(F1,F3) = +0.4625
+
+[OK] s3_conflict 完成，耗时 1.9s
+[END] s3_conflict @ 2026-09-24 17:43:24

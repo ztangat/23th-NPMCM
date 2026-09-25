@@ -1,0 +1,242 @@
+{
+  "B1": {
+    "file": "pythia_training_log_existing.csv",
+    "shape": [
+      1176,
+      15
+    ],
+    "credibility": "真实",
+    "usage": "主拟合",
+    "columns": [
+      "run_id",
+      "N_params_B",
+      "D_tokens_B",
+      "C_FLOPs_1e21",
+      "steps",
+      "batch_tokens_M",
+      "lr",
+      "wd",
+      "precision",
+      "gpu_days",
+      "step_time_ms",
+      "train_loss",
+      "val_loss",
+      "ppl",
+      "grad_norm_avg"
+    ]
+  },
+  "B2": {
+    "file": "cerebras_training_log.csv",
+    "shape": [
+      1029,
+      15
+    ],
+    "credibility": "半合成",
+    "usage": "族外验证",
+    "columns": [
+      "run_id",
+      "N_params_B",
+      "D_tokens_B",
+      "C_FLOPs_1e21",
+      "steps",
+      "batch_tokens_M",
+      "lr",
+      "wd",
+      "precision",
+      "gpu_days",
+      "step_time_ms",
+      "train_loss",
+      "val_loss",
+      "ppl",
+      "grad_norm_avg"
+    ]
+  },
+  "B3": {
+    "file": "training_trajectories",
+    "shape": [
+      4000,
+      6
+    ],
+    "credibility": "插值",
+    "usage": "轨迹验证",
+    "columns": [
+      "N_params_B",
+      "D_tokens_B",
+      "val_loss",
+      "step",
+      "interpolated",
+      "traj_file"
+    ]
+  },
+  "B4": {
+    "file": "scaling_baseline.csv",
+    "shape": [
+      57,
+      5
+    ],
+    "credibility": "真实",
+    "usage": "跨族验证",
+    "columns": [
+      "family",
+      "N_params_B",
+      "D_tokens_B",
+      "val_loss",
+      "is_converged"
+    ]
+  },
+  "B5": {
+    "file": "published_scaling_data.csv",
+    "shape": [
+      44,
+      6
+    ],
+    "credibility": "真实",
+    "usage": "文献验证",
+    "columns": [
+      "family",
+      "N_params_B",
+      "D_tokens_B",
+      "val_loss",
+      "source",
+      "is_converged"
+    ]
+  },
+  "B6": {
+    "file": "supplementary_NQ_experiment.csv",
+    "shape": [
+      360,
+      5
+    ],
+    "credibility": "半合成",
+    "usage": "质量Q基础",
+    "columns": [
+      "experiment_id",
+      "N_params_B",
+      "D_tokens_B",
+      "Q_score",
+      "val_loss"
+    ]
+  },
+  "B7": {
+    "file": "supplementary_NQ_experiment_expanded.csv",
+    "shape": [
+      450,
+      5
+    ],
+    "credibility": "半合成",
+    "usage": "质量Q扩展",
+    "columns": [
+      "experiment_id",
+      "N_params_B",
+      "D_tokens_B",
+      "Q_score",
+      "val_loss"
+    ]
+  },
+  "B8": {
+    "file": "supplementary_NQ_experiment_large.csv",
+    "shape": [
+      1704,
+      6
+    ],
+    "credibility": "半合成",
+    "usage": "质量Q大规模",
+    "columns": [
+      "experiment_id",
+      "N_params_B",
+      "D_tokens_B",
+      "Q_score",
+      "val_loss",
+      "data_type"
+    ]
+  },
+  "B9": {
+    "file": "supplementary_large_models.csv",
+    "shape": [
+      132,
+      8
+    ],
+    "credibility": "真实",
+    "usage": "大模型参数",
+    "columns": [
+      "model_name",
+      "N_params_B",
+      "D_tokens_B",
+      "FLOPs",
+      "publication_date",
+      "organization",
+      "accessibility",
+      "country"
+    ]
+  },
+  "B10": {
+    "file": "supplementary_large_baseline.csv",
+    "shape": [
+      128,
+      5
+    ],
+    "credibility": "估算",
+    "usage": "大模型外推",
+    "columns": [
+      "family",
+      "N_params_B",
+      "D_tokens_B",
+      "val_loss",
+      "is_converged"
+    ]
+  },
+  "B11": {
+    "file": "open_model_family_metadata.csv",
+    "shape": [
+      18,
+      8
+    ],
+    "credibility": "真实",
+    "usage": "辅助",
+    "columns": [
+      "family",
+      "model_repo",
+      "config_bytes",
+      "readme_bytes",
+      "weight_file_count",
+      "weight_total_bytes",
+      "source_url",
+      "error"
+    ]
+  },
+  "B12": {
+    "file": "pythia_checkpoint_index.csv",
+    "shape": [
+      1386,
+      5
+    ],
+    "credibility": "真实",
+    "usage": "辅助",
+    "columns": [
+      "model_repo",
+      "model_size",
+      "step",
+      "branch",
+      "commit"
+    ]
+  },
+  "q1_domains": {
+    "arxiv": 0.7568790621871924,
+    "freelaw": 0.6129960871062571,
+    "nih_exporter": 0.6052942754620853,
+    "pubmed_central": 0.6401915274026174,
+    "wikipedia_en": 0.36300221452585957,
+    "dm_mathematics": 0.6382024629451606,
+    "github": 0.41071380255007073,
+    "philpapers": 0.6229234694655446,
+    "stackexchange": 0.6160563529701564,
+    "enron_emails": 0.5871109475560465,
+    "gutenberg_pg_19": 0.3659941002833515,
+    "pile_cc": 0.596662840483352,
+    "ubuntu_irc": 0.6423828077071655,
+    "europarl": 0.6240646910028211,
+    "hackernews": 0.6120766765690769,
+    "pubmed_abstracts": 0.6044711138281349,
+    "uspto_backgrounds": 0.5976080661918177
+  }
+}

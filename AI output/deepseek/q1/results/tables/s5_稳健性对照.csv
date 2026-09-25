@@ -1,0 +1,13 @@
+﻿数据集,口径,R²
+train,train-fixed,0.9207545450882079
+test_1m,train-fixed,0.8840500890290506
+test_60m,train-fixed,-2.343092053741081
+test_1B,train-fixed,-15.270939753815412
+est_10b,train-fixed,-3.347287141316756
+est_70b,train-fixed,-7.559764996496968
+train,null(均值基线),0.0
+test_1m,null(均值基线),0.0
+test_60m,null(均值基线),0.0
+test_1B,null(均值基线),0.0
+est_10b,null(均值基线),0.0
+est_70b,null(均值基线),0.0

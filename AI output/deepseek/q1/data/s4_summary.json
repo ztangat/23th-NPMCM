@@ -1,0 +1,219 @@
+{
+  "quality_domain_Q": {
+    "arxiv": {
+      "Q_mean": 0.7568790621871924,
+      "Q_sd": 0.10790229816028765,
+      "Q_p10": 0.6232609483064271,
+      "Q_p50": 0.7579579901256902,
+      "n": 1419
+    },
+    "book": {
+      "Q_mean": 0.3659941002833515,
+      "Q_sd": 0.18371598713430753,
+      "Q_p10": 0.1533365172853603,
+      "Q_p50": 0.33621657560103935,
+      "n": 171
+    },
+    "c4": {
+      "Q_mean": 0.5677178981114097,
+      "Q_sd": 0.19005531477187412,
+      "Q_p10": 0.33665727185664496,
+      "Q_p50": 0.5491747263738653,
+      "n": 10000
+    },
+    "commoncrawl": {
+      "Q_mean": 0.596662840483352,
+      "Q_sd": 0.19155295771544673,
+      "Q_p10": 0.36535213998454963,
+      "Q_p50": 0.5841518157082624,
+      "n": 9640
+    },
+    "github": {
+      "Q_mean": 0.41071380255007073,
+      "Q_sd": 0.17357847203890875,
+      "Q_p10": 0.1848585283080132,
+      "Q_p50": 0.41354824248159394,
+      "n": 10000
+    },
+    "stackexchange": {
+      "Q_mean": 0.6160563529701564,
+      "Q_sd": 0.14800627946563566,
+      "Q_p10": 0.4202945360566471,
+      "Q_p50": 0.6274138401934144,
+      "n": 10000
+    },
+    "wikipedia": {
+      "Q_mean": 0.36300221452585957,
+      "Q_sd": 0.19129748961856857,
+      "Q_p10": 0.11926490484751878,
+      "Q_p50": 0.3545838397162939,
+      "n": 10000
+    }
+  },
+  "mixture_domain_Q": {
+    "arxiv": {
+      "Q": 0.7568790621871924,
+      "level": "direct",
+      "sd": 0.10790229816028765,
+      "method": "direct 直接映射 → arxiv",
+      "Q_A_regression": 0.6798620322647011,
+      "Q_B_transfer": 0.7568790621871924,
+      "Q_semantic_prior": 0.757
+    },
+    "freelaw": {
+      "Q": 0.6129960871062571,
+      "level": "inferred",
+      "sd": 0.1818452668523128,
+      "method": "L3 近邻迁移 → commoncrawl(w=0.65), c4(w=0.21), arxiv(w=0.14)",
+      "Q_A_regression": 0.5043063336706404,
+      "Q_B_transfer": 0.6129960871062571,
+      "Q_semantic_prior": 0.62
+    },
+    "nih_exporter": {
+      "Q": 0.6052942754620853,
+      "level": "inferred",
+      "sd": 0.18203111096879082,
+      "method": "L3 近邻迁移 → commoncrawl(w=0.43), c4(w=0.43), arxiv(w=0.13)",
+      "Q_A_regression": 0.5565885995766684,
+      "Q_B_transfer": 0.6052942754620853,
+      "Q_semantic_prior": 0.6
+    },
+    "pubmed_central": {
+      "Q": 0.6401915274026174,
+      "level": "inferred",
+      "sd": 0.16866816278799934,
+      "method": "L3 近邻迁移 → commoncrawl(w=0.40), arxiv(w=0.32), c4(w=0.28)",
+      "Q_A_regression": 0.5802682919193359,
+      "Q_B_transfer": 0.6401915274026174,
+      "Q_semantic_prior": 0.64
+    },
+    "wikipedia_en": {
+      "Q": 0.36300221452585957,
+      "level": "near_direct",
+      "sd": 0.19129748961856857,
+      "method": "near_direct 直接映射 → wikipedia",
+      "Q_A_regression": 0.43310541566157945,
+      "Q_B_transfer": 0.36300221452585957,
+      "Q_semantic_prior": 0.363
+    },
+    "dm_mathematics": {
+      "Q": 0.6382024629451606,
+      "level": "inferred",
+      "sd": 0.16898697877567734,
+      "method": "L3 近邻迁移 → commoncrawl(w=0.36), c4(w=0.32), arxiv(w=0.32)",
+      "Q_A_regression": 0.3639693140327167,
+      "Q_B_transfer": 0.6382024629451606,
+      "Q_semantic_prior": 0.63
+    },
+    "github": {
+      "Q": 0.41071380255007073,
+      "level": "direct",
+      "sd": 0.17357847203890875,
+      "method": "direct 直接映射 → github",
+      "Q_A_regression": 0.33599872739736814,
+      "Q_B_transfer": 0.41071380255007073,
+      "Q_semantic_prior": 0.411
+    },
+    "philpapers": {
+      "Q": 0.6229234694655446,
+      "level": "inferred",
+      "sd": 0.17682133435404923,
+      "method": "L3 近邻迁移 → commoncrawl(w=0.53), c4(w=0.26), arxiv(w=0.21)",
+      "Q_A_regression": 0.6498987654661312,
+      "Q_B_transfer": 0.6229234694655446,
+      "Q_semantic_prior": 0.62
+    },
+    "stackexchange": {
+      "Q": 0.6160563529701564,
+      "level": "direct",
+      "sd": 0.14800627946563566,
+      "method": "direct 直接映射 → stackexchange",
+      "Q_A_regression": 0.5932825229209977,
+      "Q_B_transfer": 0.6160563529701564,
+      "Q_semantic_prior": 0.616
+    },
+    "enron_emails": {
+      "Q": 0.5871109475560465,
+      "level": "inferred",
+      "sd": 0.18158041621756574,
+      "method": "L3 近邻迁移 → c4(w=0.49), commoncrawl(w=0.28), stackexchange(w=0.23)",
+      "Q_A_regression": 0.3737420413661872,
+      "Q_B_transfer": 0.5871109475560465,
+      "Q_semantic_prior": 0.58
+    },
+    "gutenberg_pg_19": {
+      "Q": 0.3659941002833515,
+      "level": "near_direct",
+      "sd": 0.18371598713430753,
+      "method": "near_direct 直接映射 → book",
+      "Q_A_regression": 0.640833782367127,
+      "Q_B_transfer": 0.3659941002833515,
+      "Q_semantic_prior": 0.366
+    },
+    "pile_cc": {
+      "Q": 0.596662840483352,
+      "level": "near_direct",
+      "sd": 0.19155295771544673,
+      "method": "near_direct 直接映射 → commoncrawl",
+      "Q_A_regression": 0.5019620608131914,
+      "Q_B_transfer": 0.596662840483352,
+      "Q_semantic_prior": 0.597
+    },
+    "ubuntu_irc": {
+      "Q": 0.6423828077071655,
+      "level": "inferred",
+      "sd": 0.16840321858093238,
+      "method": "L3 近邻迁移 → commoncrawl(w=0.44), arxiv(w=0.33), c4(w=0.23)",
+      "Q_A_regression": 0.34344037195275096,
+      "Q_B_transfer": 0.6423828077071655,
+      "Q_semantic_prior": 0.6
+    },
+    "europarl": {
+      "Q": 0.6240646910028211,
+      "level": "inferred",
+      "sd": 0.17557223581975823,
+      "method": "L3 近邻迁移 → commoncrawl(w=0.46), c4(w=0.31), arxiv(w=0.23)",
+      "Q_A_regression": 0.5079353562031811,
+      "Q_B_transfer": 0.6240646910028211,
+      "Q_semantic_prior": 0.62
+    },
+    "hackernews": {
+      "Q": 0.6120766765690769,
+      "level": "inferred",
+      "sd": 0.17990746803859717,
+      "method": "L3 近邻迁移 → commoncrawl(w=0.46), c4(w=0.38), arxiv(w=0.16)",
+      "Q_A_regression": 0.43731812257396946,
+      "Q_B_transfer": 0.6120766765690769,
+      "Q_semantic_prior": 0.6
+    },
+    "pubmed_abstracts": {
+      "Q": 0.6044711138281349,
+      "level": "inferred",
+      "sd": 0.18218896845162524,
+      "method": "L3 近邻迁移 → c4(w=0.45), commoncrawl(w=0.42), arxiv(w=0.13)",
+      "Q_A_regression": 0.5408674272875574,
+      "Q_B_transfer": 0.6044711138281349,
+      "Q_semantic_prior": 0.6
+    },
+    "uspto_backgrounds": {
+      "Q": 0.5976080661918177,
+      "level": "inferred",
+      "sd": 0.18508870712206132,
+      "method": "L3 近邻迁移 → commoncrawl(w=0.46), c4(w=0.45), arxiv(w=0.09)",
+      "Q_A_regression": 0.5517547681393583,
+      "Q_B_transfer": 0.5976080661918177,
+      "Q_semantic_prior": 0.6
+    }
+  },
+  "method_A_sample_cv_r2": 0.46444692153240547,
+  "method_A_anchor_check_mae": 0.1023582663356681,
+  "corrB_prior": 0.8981099903482421,
+  "corrA_prior": 0.4104934858932409,
+  "corrA_B": 0.24264705882352944,
+  "ext_consistency": {
+    "arxiv_sample": 0.7568790621871924,
+    "arxiv_ext": 0.7537068350756974,
+    "github_sample": 0.41071380255007073,
+    "github_ext": 0.4078954123516546
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "fam_names": [
+    "F1_分类器语义",
+    "F2_DSIR重要性",
+    "F3_文本统计"
+  ],
+  "delta_f_sample": 0.3202738306919195,
+  "delta_i_sample": 0.3161646561310082,
+  "conflict_rate_sample": 0.10000000149011612,
+  "conflict_rate_arxiv": 0.10003994405269623,
+  "conflict_rate_github": 0.1000039279460907,
+  "Dfam_mean_sample": 0.2401988164304598,
+  "Dfam_mean_arxiv": 0.11631545906080944,
+  "Dfam_mean_github": 0.2662093646245534,
+  "corr_Q_Dfam_sample": -0.859148983984749,
+  "spearman_vs_mainQ": {
+    "族平衡": 0.8999018649140763,
+    "冲突感知": 0.8823932643430173,
+    "可信度门控": 0.8379046531338827
+  }
+}

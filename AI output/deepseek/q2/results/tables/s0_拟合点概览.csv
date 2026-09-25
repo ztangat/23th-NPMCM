@@ -1,0 +1,11 @@
+﻿编号,文件,可信度,行数,含N/D/L,含Q,N范围_B,D最大_B
+B1,pythia_training_log_existing.csv,真实,1176,True,False,"[0.07,12.0]",299.9
+B2,cerebras_training_log.csv,半合成,1029,True,False,"[0.11,13.0]",2050.0
+B3,training_trajectories,插值,4000,True,False,"[0.07,12.0]",299.9
+B4,scaling_baseline.csv,真实,57,True,False,"[0.07,72.0]",33739.0
+B5,published_scaling_data.csv,真实,44,True,False,"[0.12,540.0]",2000.0
+B6,supplementary_NQ_experiment.csv,半合成,360,True,True,"[0.07,12.0]",600.0
+B7,supplementary_NQ_experiment_expanded.csv,半合成,450,True,True,"[0.07,12.0]",600.0
+B8,supplementary_NQ_experiment_large.csv,半合成,1704,True,True,"[0.07,700.0]",2000.0
+B9,supplementary_large_models.csv,真实,132,False,False,"[100.00,10000.0]",36000.0
+B10,supplementary_large_baseline.csv,估算,128,True,False,"[100.00,10000.0]",36000.0

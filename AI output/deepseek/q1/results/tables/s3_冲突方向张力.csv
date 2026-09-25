@@ -1,0 +1,7 @@
+﻿指标A,指标B,冲突含义,Pearson_r,p,冲突方向,强度
+rps_doc_frac_unique_words,rps_doc_unigram_entropy,唯一词占比↔词熵,-0.6647451085466423,0.0,负向张力,0.6647451085466423
+dsir_books,rps_doc_unigram_entropy,DSIR图书相似度↔词熵,-0.3791060784993537,0.0,负向张力,0.3791060784993537
+rps_lines_ending_with_terminal_punctution_mark,rps_doc_frac_no_alph_words,句末标点↔非字母词,0.34138901295850677,0.0,正向协同,0.34138901295850677
+rps_doc_word_count,rps_lines_uppercase_letter_fraction,文档越长↔大写行越多(格式噪声),0.11890994420319234,1.1478530405859958e-160,正向协同,0.11890994420319234
+fineweb_edu,rps_doc_mean_word_length,教育价值↔平均词长,0.0672548884892814,1.9368191616760192e-52,正向协同,0.0672548884892814
+fluency_en,ad_en,流畅度↔广告含量,-0.0367764923045309,8.318227337109684e-17,负向张力,0.0367764923045309

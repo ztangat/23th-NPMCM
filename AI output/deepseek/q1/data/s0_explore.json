@@ -1,0 +1,700 @@
+{
+  "A1_sample": {
+    "tag": "A1抽样集",
+    "path": "C:/Users/dkyyt/Desktop/F题\\real_attachments\\A_data_value\\slimpajama_quality_signal_sample.jsonl\\slimpajama_quality_signal_sample.jsonl",
+    "rows": 51230,
+    "fields": {
+      "id": 51230,
+      "content": 51230,
+      "dsir_books": 51230,
+      "fluency_en": 51230,
+      "rps_lines_ending_with_terminal_punctution_mark": 51230,
+      "modernbert_cleanliness": 51230,
+      "qurater": 51230,
+      "rps_doc_num_sentences": 51230,
+      "rps_doc_word_count": 51230,
+      "ad_en": 51230,
+      "rps_doc_frac_no_alph_words": 51230,
+      "modernbert_reasoning": 51230,
+      "rps_doc_frac_chars_top_2gram": 51230,
+      "rps_lines_uppercase_letter_fraction": 51230,
+      "rps_doc_frac_unique_words": 51230,
+      "rps_lines_numerical_chars_fraction": 51230,
+      "fineweb_edu": 51230,
+      "dsir_math": 51230,
+      "rps_doc_mean_word_length": 51230,
+      "dsir_wiki": 51230,
+      "rps_doc_frac_chars_top_3gram": 51230,
+      "rps_doc_unigram_entropy": 51230,
+      "modernbert_professionalism": 51230,
+      "modernbert_readability": 51230,
+      "sub_path": 51230,
+      "_source_domain": 51230,
+      "_source_path": 51230
+    },
+    "domains": {
+      "arxiv": 1419,
+      "book": 171,
+      "c4": 10000,
+      "commoncrawl": 9640,
+      "github": 10000,
+      "stackexchange": 10000,
+      "wikipedia": 10000
+    },
+    "missing": {
+      "dsir_books": 0,
+      "dsir_wiki": 0,
+      "dsir_math": 0,
+      "rps_doc_word_count": 0,
+      "rps_doc_num_sentences": 0,
+      "rps_doc_unigram_entropy": 0,
+      "rps_doc_frac_unique_words": 0,
+      "rps_doc_frac_no_alph_words": 0,
+      "rps_doc_frac_chars_top_2gram": 0,
+      "rps_doc_frac_chars_top_3gram": 0,
+      "rps_lines_uppercase_letter_fraction": 0,
+      "rps_lines_ending_with_terminal_punctution_mark": 0,
+      "rps_lines_numerical_chars_fraction": 0,
+      "rps_doc_mean_word_length": 0,
+      "fluency_en": 0,
+      "modernbert_cleanliness": 0,
+      "modernbert_readability": 0,
+      "modernbert_reasoning": 0,
+      "modernbert_professionalism": 0,
+      "qurater": 0,
+      "ad_en": 0,
+      "fineweb_edu": 0
+    },
+    "nonfinite": {
+      "dsir_books": 0,
+      "dsir_wiki": 0,
+      "dsir_math": 0,
+      "rps_doc_word_count": 0,
+      "rps_doc_num_sentences": 0,
+      "rps_doc_unigram_entropy": 0,
+      "rps_doc_frac_unique_words": 0,
+      "rps_doc_frac_no_alph_words": 0,
+      "rps_doc_frac_chars_top_2gram": 0,
+      "rps_doc_frac_chars_top_3gram": 0,
+      "rps_lines_uppercase_letter_fraction": 0,
+      "rps_lines_ending_with_terminal_punctution_mark": 0,
+      "rps_lines_numerical_chars_fraction": 0,
+      "rps_doc_mean_word_length": 0
+    },
+    "type_errors": {},
+    "list_lengths": {
+      "fluency_en": {
+        "2": 51230
+      },
+      "modernbert_cleanliness": {
+        "6": 51230
+      },
+      "modernbert_readability": {
+        "6": 51230
+      },
+      "modernbert_reasoning": {
+        "6": 51230
+      },
+      "modernbert_professionalism": {
+        "6": 51230
+      },
+      "qurater": {
+        "4": 51230
+      },
+      "ad_en": {
+        "2": 51230
+      },
+      "fineweb_edu": {
+        "1": 51230
+      }
+    },
+    "scalar_stats": {
+      "dsir_books": {
+        "min": -1242823.60370116,
+        "max": -24.02237722,
+        "mean": -4697.6895073791775,
+        "n": 51230
+      },
+      "dsir_wiki": {
+        "min": -1561611.03426511,
+        "max": -25.0120389,
+        "mean": -4826.223804802524,
+        "n": 51230
+      },
+      "dsir_math": {
+        "min": -1668348.05111975,
+        "max": -22.86740911,
+        "mean": -4380.175070731871,
+        "n": 51230
+      },
+      "rps_doc_word_count": {
+        "min": 1.0,
+        "max": 552671.0,
+        "mean": 951.7855943782939,
+        "n": 51230
+      },
+      "rps_doc_num_sentences": {
+        "min": 1.0,
+        "max": 25078.0,
+        "mean": 72.64895569002537,
+        "n": 51230
+      },
+      "rps_doc_unigram_entropy": {
+        "min": 0.0,
+        "max": 7.84673154,
+        "mean": 4.536075693867081,
+        "n": 51230
+      },
+      "rps_doc_frac_unique_words": {
+        "min": 5.088363331179848,
+        "max": 100.0,
+        "mean": 56.34188503346631,
+        "n": 51230
+      },
+      "rps_doc_frac_no_alph_words": {
+        "min": 4.347826086956516,
+        "max": 100.0,
+        "mean": 28.294274380936795,
+        "n": 51230
+      },
+      "rps_doc_frac_chars_top_2gram": {
+        "min": 0.0,
+        "max": 135.13338722716247,
+        "mean": 3.5870232064886847,
+        "n": 51230
+      },
+      "rps_doc_frac_chars_top_3gram": {
+        "min": 0.0,
+        "max": 201.6814874696847,
+        "mean": 2.9163775954724604,
+        "n": 51230
+      },
+      "rps_lines_uppercase_letter_fraction": {
+        "min": 0.0,
+        "max": 86.95652173913044,
+        "mean": 20.083446680856348,
+        "n": 51230
+      },
+      "rps_lines_ending_with_terminal_punctution_mark": {
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 54.5922408628873,
+        "n": 51230
+      },
+      "rps_lines_numerical_chars_fraction": {
+        "min": 0.0,
+        "max": 72.34424037417816,
+        "mean": 2.4988664533558524,
+        "n": 51230
+      },
+      "rps_doc_mean_word_length": {
+        "min": 1.9272030651340997,
+        "max": 83.0,
+        "mean": 6.206584586105446,
+        "n": 51230
+      }
+    },
+    "list_elem_stats": {
+      "fluency_en": {
+        "min": -3.921875,
+        "max": 3.716796875,
+        "n": 51230
+      },
+      "modernbert_cleanliness": {
+        "min": -21.015625,
+        "max": 20.8125,
+        "n": 51230
+      },
+      "modernbert_readability": {
+        "min": -13.296875,
+        "max": 16.234375,
+        "n": 51230
+      },
+      "modernbert_reasoning": {
+        "min": -10.3515625,
+        "max": 17.953125,
+        "n": 51230
+      },
+      "modernbert_professionalism": {
+        "min": -11.0,
+        "max": 18.484375,
+        "n": 51230
+      },
+      "qurater": {
+        "min": -8.375,
+        "max": 12.8203125,
+        "n": 51230
+      },
+      "ad_en": {
+        "min": -3.97265625,
+        "max": 4.6796875,
+        "n": 51230
+      },
+      "fineweb_edu": {
+        "min": -0.652137815952301,
+        "max": 4.375569820404053,
+        "n": 51230
+      }
+    },
+    "content_avg_chars": 6860.221784110872,
+    "content_max_chars": 3557278
+  },
+  "A2_arxiv": {
+    "tag": "A2 arxiv扩展集",
+    "path": "C:/Users/dkyyt/Desktop/F题\\real_attachments\\A_data_value\\slimpajama_quality_extended\\arxiv_part-6777d8857c6e-000486.jsonl\\arxiv_part-6777d8857c6e-000486.jsonl",
+    "rows": 17523,
+    "fields": {
+      "id": 17523,
+      "dsir_books": 17523,
+      "fluency_en": 17523,
+      "rps_lines_ending_with_terminal_punctution_mark": 17523,
+      "modernbert_cleanliness": 17523,
+      "qurater": 17523,
+      "rps_doc_num_sentences": 17523,
+      "rps_doc_word_count": 17523,
+      "ad_en": 17523,
+      "rps_doc_frac_no_alph_words": 17523,
+      "modernbert_reasoning": 17523,
+      "rps_doc_frac_chars_top_2gram": 17523,
+      "rps_lines_uppercase_letter_fraction": 17523,
+      "rps_doc_frac_unique_words": 17523,
+      "rps_lines_numerical_chars_fraction": 17523,
+      "fineweb_edu": 17523,
+      "dsir_math": 17523,
+      "rps_doc_mean_word_length": 17523,
+      "dsir_wiki": 17523,
+      "rps_doc_frac_chars_top_3gram": 17523,
+      "rps_doc_unigram_entropy": 17523,
+      "modernbert_professionalism": 17523,
+      "modernbert_readability": 17523,
+      "sub_path": 17523
+    },
+    "domains": {},
+    "missing": {
+      "dsir_books": 0,
+      "dsir_wiki": 0,
+      "dsir_math": 0,
+      "rps_doc_word_count": 0,
+      "rps_doc_num_sentences": 0,
+      "rps_doc_unigram_entropy": 0,
+      "rps_doc_frac_unique_words": 0,
+      "rps_doc_frac_no_alph_words": 0,
+      "rps_doc_frac_chars_top_2gram": 0,
+      "rps_doc_frac_chars_top_3gram": 0,
+      "rps_lines_uppercase_letter_fraction": 0,
+      "rps_lines_ending_with_terminal_punctution_mark": 0,
+      "rps_lines_numerical_chars_fraction": 0,
+      "rps_doc_mean_word_length": 0,
+      "fluency_en": 0,
+      "modernbert_cleanliness": 0,
+      "modernbert_readability": 0,
+      "modernbert_reasoning": 0,
+      "modernbert_professionalism": 0,
+      "qurater": 0,
+      "ad_en": 0,
+      "fineweb_edu": 0
+    },
+    "nonfinite": {
+      "dsir_books": 0,
+      "dsir_wiki": 0,
+      "dsir_math": 0,
+      "rps_doc_word_count": 0,
+      "rps_doc_num_sentences": 0,
+      "rps_doc_unigram_entropy": 0,
+      "rps_doc_frac_unique_words": 0,
+      "rps_doc_frac_no_alph_words": 0,
+      "rps_doc_frac_chars_top_2gram": 0,
+      "rps_doc_frac_chars_top_3gram": 0,
+      "rps_lines_uppercase_letter_fraction": 0,
+      "rps_lines_ending_with_terminal_punctution_mark": 0,
+      "rps_lines_numerical_chars_fraction": 0,
+      "rps_doc_mean_word_length": 0
+    },
+    "type_errors": {},
+    "list_lengths": {
+      "fluency_en": {
+        "2": 17523
+      },
+      "modernbert_cleanliness": {
+        "6": 17523
+      },
+      "modernbert_readability": {
+        "6": 17523
+      },
+      "modernbert_reasoning": {
+        "6": 17523
+      },
+      "modernbert_professionalism": {
+        "6": 17523
+      },
+      "qurater": {
+        "4": 17523
+      },
+      "ad_en": {
+        "2": 17523
+      },
+      "fineweb_edu": {
+        "1": 17523
+      }
+    },
+    "scalar_stats": {
+      "dsir_books": {
+        "min": -2026325.80102772,
+        "max": -316.68028944,
+        "mean": -51540.452952973086,
+        "n": 17523
+      },
+      "dsir_wiki": {
+        "min": -1966147.71309439,
+        "max": -313.93355077,
+        "mean": -50951.931298065174,
+        "n": 17523
+      },
+      "dsir_math": {
+        "min": -1508740.10117446,
+        "max": -306.94026452,
+        "mean": -33394.4667697296,
+        "n": 17523
+      },
+      "rps_doc_word_count": {
+        "min": 10.0,
+        "max": 217176.0,
+        "mean": 7027.644410203732,
+        "n": 17523
+      },
+      "rps_doc_num_sentences": {
+        "min": 1.0,
+        "max": 30449.0,
+        "mean": 465.1799349426468,
+        "n": 17523
+      },
+      "rps_doc_unigram_entropy": {
+        "min": 2.30258509,
+        "max": 7.80240899,
+        "mean": 5.927951075331276,
+        "n": 17523
+      },
+      "rps_doc_frac_unique_words": {
+        "min": 2.720757022773438,
+        "max": 100.0,
+        "mean": 24.802553877800804,
+        "n": 17523
+      },
+      "rps_doc_frac_no_alph_words": {
+        "min": 15.985130111524157,
+        "max": 91.47592509058103,
+        "mean": 30.46636315983602,
+        "n": 17523
+      },
+      "rps_doc_frac_chars_top_2gram": {
+        "min": 0.0,
+        "max": 21.883763659220577,
+        "mean": 1.161278013413774,
+        "n": 17523
+      },
+      "rps_doc_frac_chars_top_3gram": {
+        "min": 0.0,
+        "max": 35.37375495600038,
+        "mean": 0.8996134853295915,
+        "n": 17523
+      },
+      "rps_lines_uppercase_letter_fraction": {
+        "min": 0.5336562412395783,
+        "max": 87.8054690204223,
+        "mean": 19.032866450123468,
+        "n": 17523
+      },
+      "rps_lines_ending_with_terminal_punctution_mark": {
+        "min": 0.20883054892601433,
+        "max": 100.0,
+        "mean": 34.97276860637065,
+        "n": 17523
+      },
+      "rps_lines_numerical_chars_fraction": {
+        "min": 0.0,
+        "max": 85.67810452791292,
+        "mean": 4.123259840350194,
+        "n": 17523
+      },
+      "rps_doc_mean_word_length": {
+        "min": 2.986633821449751,
+        "max": 39.0,
+        "mean": 5.818180279833932,
+        "n": 17523
+      }
+    },
+    "list_elem_stats": {
+      "fluency_en": {
+        "min": -3.783203125,
+        "max": 3.44921875,
+        "n": 17523
+      },
+      "modernbert_cleanliness": {
+        "min": -16.8125,
+        "max": 16.71875,
+        "n": 17523
+      },
+      "modernbert_readability": {
+        "min": -10.109375,
+        "max": 12.5390625,
+        "n": 17523
+      },
+      "modernbert_reasoning": {
+        "min": -8.375,
+        "max": 15.703125,
+        "n": 17523
+      },
+      "modernbert_professionalism": {
+        "min": -6.75390625,
+        "max": 13.953125,
+        "n": 17523
+      },
+      "qurater": {
+        "min": -5.296875,
+        "max": 12.53125,
+        "n": 17523
+      },
+      "ad_en": {
+        "min": -3.9296875,
+        "max": 4.53515625,
+        "n": 17523
+      },
+      "fineweb_edu": {
+        "min": -0.13706642389297485,
+        "max": 4.345012187957764,
+        "n": 17523
+      }
+    },
+    "content_avg_chars": null,
+    "content_max_chars": 0
+  },
+  "A3_github": {
+    "tag": "A3 github扩展集",
+    "path": "C:/Users/dkyyt/Desktop/F题\\real_attachments\\A_data_value\\slimpajama_quality_extended\\github_part-6777d8857c6e-000275.jsonl\\github_part-6777d8857c6e-000275.jsonl",
+    "rows": 203752,
+    "fields": {
+      "id": 203752,
+      "modernbert_reasoning": 203752,
+      "dsir_books": 203752,
+      "modernbert_readability": 203752,
+      "fineweb_edu": 203752,
+      "rps_doc_unigram_entropy": 203752,
+      "modernbert_cleanliness": 203752,
+      "rps_doc_frac_chars_top_3gram": 203752,
+      "rps_doc_frac_chars_top_2gram": 203752,
+      "rps_doc_frac_no_alph_words": 203752,
+      "modernbert_professionalism": 203752,
+      "rps_lines_ending_with_terminal_punctution_mark": 203752,
+      "dsir_math": 203752,
+      "rps_doc_frac_unique_words": 203752,
+      "rps_doc_num_sentences": 203752,
+      "rps_lines_numerical_chars_fraction": 203752,
+      "ad_en": 203752,
+      "dsir_wiki": 203752,
+      "rps_doc_word_count": 203752,
+      "rps_doc_mean_word_length": 203752,
+      "rps_lines_uppercase_letter_fraction": 203752,
+      "qurater": 203752,
+      "fluency_en": 203752,
+      "sub_path": 203752
+    },
+    "domains": {},
+    "missing": {
+      "dsir_books": 0,
+      "dsir_wiki": 0,
+      "dsir_math": 0,
+      "rps_doc_word_count": 0,
+      "rps_doc_num_sentences": 0,
+      "rps_doc_unigram_entropy": 0,
+      "rps_doc_frac_unique_words": 0,
+      "rps_doc_frac_no_alph_words": 0,
+      "rps_doc_frac_chars_top_2gram": 0,
+      "rps_doc_frac_chars_top_3gram": 0,
+      "rps_lines_uppercase_letter_fraction": 0,
+      "rps_lines_ending_with_terminal_punctution_mark": 0,
+      "rps_lines_numerical_chars_fraction": 0,
+      "rps_doc_mean_word_length": 0,
+      "fluency_en": 0,
+      "modernbert_cleanliness": 0,
+      "modernbert_readability": 0,
+      "modernbert_reasoning": 0,
+      "modernbert_professionalism": 0,
+      "qurater": 0,
+      "ad_en": 0,
+      "fineweb_edu": 0
+    },
+    "nonfinite": {
+      "dsir_books": 0,
+      "dsir_wiki": 0,
+      "dsir_math": 0,
+      "rps_doc_word_count": 0,
+      "rps_doc_num_sentences": 0,
+      "rps_doc_unigram_entropy": 0,
+      "rps_doc_frac_unique_words": 0,
+      "rps_doc_frac_no_alph_words": 0,
+      "rps_doc_frac_chars_top_2gram": 0,
+      "rps_doc_frac_chars_top_3gram": 0,
+      "rps_lines_uppercase_letter_fraction": 0,
+      "rps_lines_ending_with_terminal_punctution_mark": 0,
+      "rps_lines_numerical_chars_fraction": 0,
+      "rps_doc_mean_word_length": 0
+    },
+    "type_errors": {},
+    "list_lengths": {
+      "fluency_en": {
+        "2": 203752
+      },
+      "modernbert_cleanliness": {
+        "6": 203752
+      },
+      "modernbert_readability": {
+        "6": 203752
+      },
+      "modernbert_reasoning": {
+        "6": 203752
+      },
+      "modernbert_professionalism": {
+        "6": 203752
+      },
+      "qurater": {
+        "4": 203752
+      },
+      "ad_en": {
+        "2": 203752
+      },
+      "fineweb_edu": {
+        "1": 203752
+      }
+    },
+    "scalar_stats": {
+      "dsir_books": {
+        "min": -1875504.79852465,
+        "max": -16.82294988,
+        "mean": -5417.6570613872245,
+        "n": 203752
+      },
+      "dsir_wiki": {
+        "min": -1906833.36424408,
+        "max": -17.66218046,
+        "mean": -5441.128661353359,
+        "n": 203752
+      },
+      "dsir_math": {
+        "min": -1754034.28491041,
+        "max": -15.05893869,
+        "mean": -5037.957220225164,
+        "n": 203752
+      },
+      "rps_doc_word_count": {
+        "min": 1.0,
+        "max": 93541.0,
+        "mean": 348.97868977973224,
+        "n": 203752
+      },
+      "rps_doc_num_sentences": {
+        "min": 1.0,
+        "max": 26727.0,
+        "mean": 70.92058482861518,
+        "n": 203752
+      },
+      "rps_doc_unigram_entropy": {
+        "min": 0.0,
+        "max": 7.40034161,
+        "mean": 3.8449947976407928,
+        "n": 203752
+      },
+      "rps_doc_frac_unique_words": {
+        "min": 1.2174256383258752,
+        "max": 100.0,
+        "mean": 60.202507460311246,
+        "n": 203752
+      },
+      "rps_doc_frac_no_alph_words": {
+        "min": 4.347826086956516,
+        "max": 99.58013873676525,
+        "mean": 35.358940170962676,
+        "n": 203752
+      },
+      "rps_doc_frac_chars_top_2gram": {
+        "min": 0.0,
+        "max": 194.0,
+        "mean": 3.8202766107817347,
+        "n": 203752
+      },
+      "rps_doc_frac_chars_top_3gram": {
+        "min": 0.0,
+        "max": 284.0,
+        "mean": 3.1740154697867995,
+        "n": 203752
+      },
+      "rps_lines_uppercase_letter_fraction": {
+        "min": 0.0,
+        "max": 96.49122807017544,
+        "mean": 22.916413592601437,
+        "n": 203752
+      },
+      "rps_lines_ending_with_terminal_punctution_mark": {
+        "min": 0.0,
+        "max": 100.0,
+        "mean": 24.583595243842968,
+        "n": 203752
+      },
+      "rps_lines_numerical_chars_fraction": {
+        "min": 0.0,
+        "max": 63.01441377528455,
+        "mean": 1.502086109698108,
+        "n": 203752
+      },
+      "rps_doc_mean_word_length": {
+        "min": 2.5,
+        "max": 87.0,
+        "mean": 9.740660206988146,
+        "n": 203752
+      }
+    },
+    "list_elem_stats": {
+      "fluency_en": {
+        "min": -3.650390625,
+        "max": 3.392578125,
+        "n": 203752
+      },
+      "modernbert_cleanliness": {
+        "min": -19.8125,
+        "max": 21.65625,
+        "n": 203752
+      },
+      "modernbert_readability": {
+        "min": -12.1015625,
+        "max": 14.546875,
+        "n": 203752
+      },
+      "modernbert_reasoning": {
+        "min": -9.4296875,
+        "max": 18.421875,
+        "n": 203752
+      },
+      "modernbert_professionalism": {
+        "min": -8.7890625,
+        "max": 16.09375,
+        "n": 203752
+      },
+      "qurater": {
+        "min": -7.66796875,
+        "max": 11.1796875,
+        "n": 203752
+      },
+      "ad_en": {
+        "min": -3.91015625,
+        "max": 4.61328125,
+        "n": 203752
+      },
+      "fineweb_edu": {
+        "min": -0.652137815952301,
+        "max": 4.694155216217041,
+        "n": 203752
+      }
+    },
+    "content_avg_chars": null,
+    "content_max_chars": 0
+  }
+}

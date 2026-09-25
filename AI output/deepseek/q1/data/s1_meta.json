@@ -1,0 +1,174 @@
+{
+  "feature_names_raw": [
+    "dsir_books__raw",
+    "dsir_wiki__raw",
+    "dsir_math__raw",
+    "rps_doc_word_count__raw",
+    "rps_doc_num_sentences__raw",
+    "rps_doc_unigram_entropy__raw",
+    "rps_doc_frac_unique_words__raw",
+    "rps_doc_frac_no_alph_words__raw",
+    "rps_doc_frac_chars_top_2gram__raw",
+    "rps_doc_frac_chars_top_3gram__raw",
+    "rps_lines_uppercase_letter_fraction__raw",
+    "rps_lines_ending_with_terminal_punctution_mark__raw",
+    "rps_lines_numerical_chars_fraction__raw",
+    "rps_doc_mean_word_length__raw",
+    "fluency_en__p_top1",
+    "fluency_en__confidence",
+    "fluency_en__exp_level",
+    "modernbert_cleanliness__p_top1",
+    "modernbert_cleanliness__confidence",
+    "modernbert_cleanliness__exp_level",
+    "modernbert_readability__p_top1",
+    "modernbert_readability__confidence",
+    "modernbert_readability__exp_level",
+    "modernbert_reasoning__p_top1",
+    "modernbert_reasoning__confidence",
+    "modernbert_reasoning__exp_level",
+    "modernbert_professionalism__p_top1",
+    "modernbert_professionalism__confidence",
+    "modernbert_professionalism__exp_level",
+    "qurater__p_top1",
+    "qurater__confidence",
+    "qurater__exp_level",
+    "ad_en__p_top1",
+    "ad_en__confidence",
+    "ad_en__exp_level",
+    "fineweb_edu__p_top1",
+    "fineweb_edu__confidence",
+    "fineweb_edu__exp_level"
+  ],
+  "T_names": [
+    "dsir_books",
+    "dsir_wiki",
+    "dsir_math",
+    "rps_doc_word_count",
+    "rps_doc_num_sentences",
+    "rps_doc_unigram_entropy",
+    "rps_doc_frac_unique_words",
+    "rps_doc_frac_no_alph_words",
+    "rps_doc_frac_chars_top_2gram",
+    "rps_doc_frac_chars_top_3gram",
+    "rps_lines_uppercase_letter_fraction",
+    "rps_lines_ending_with_terminal_punctution_mark",
+    "rps_lines_numerical_chars_fraction",
+    "rps_doc_mean_word_length",
+    "fluency_en",
+    "modernbert_cleanliness",
+    "modernbert_readability",
+    "modernbert_reasoning",
+    "modernbert_professionalism",
+    "qurater",
+    "ad_en",
+    "fineweb_edu"
+  ],
+  "scalar_metrics": [
+    "dsir_books",
+    "dsir_wiki",
+    "dsir_math",
+    "rps_doc_word_count",
+    "rps_doc_num_sentences",
+    "rps_doc_unigram_entropy",
+    "rps_doc_frac_unique_words",
+    "rps_doc_frac_no_alph_words",
+    "rps_doc_frac_chars_top_2gram",
+    "rps_doc_frac_chars_top_3gram",
+    "rps_lines_uppercase_letter_fraction",
+    "rps_lines_ending_with_terminal_punctution_mark",
+    "rps_lines_numerical_chars_fraction",
+    "rps_doc_mean_word_length"
+  ],
+  "list_metrics": [
+    "fluency_en",
+    "modernbert_cleanliness",
+    "modernbert_readability",
+    "modernbert_reasoning",
+    "modernbert_professionalism",
+    "qurater",
+    "ad_en",
+    "fineweb_edu"
+  ],
+  "direction": {
+    "dsir_books": 1,
+    "dsir_wiki": 1,
+    "dsir_math": 1,
+    "fluency_en": 1,
+    "modernbert_cleanliness": 1,
+    "modernbert_readability": 1,
+    "modernbert_reasoning": 1,
+    "modernbert_professionalism": 1,
+    "qurater": 1,
+    "fineweb_edu": 1,
+    "rps_doc_unigram_entropy": 1,
+    "rps_doc_frac_unique_words": 1,
+    "rps_lines_ending_with_terminal_punctution_mark": 1,
+    "ad_en": -1,
+    "rps_doc_frac_no_alph_words": -1,
+    "rps_doc_frac_chars_top_2gram": -1,
+    "rps_doc_frac_chars_top_3gram": -1,
+    "rps_lines_uppercase_letter_fraction": -1,
+    "rps_lines_numerical_chars_fraction": -1,
+    "rps_doc_word_count": 0,
+    "rps_doc_num_sentences": 0,
+    "rps_doc_mean_word_length": 0
+  },
+  "list_spec": {
+    "fluency_en": {
+      "dim": 2,
+      "mode": "binary",
+      "desc": "英语流畅度二分类对数几率"
+    },
+    "modernbert_cleanliness": {
+      "dim": 6,
+      "mode": "multi_softmax",
+      "desc": "干净度六分类"
+    },
+    "modernbert_readability": {
+      "dim": 6,
+      "mode": "multi_softmax",
+      "desc": "可读性六分类"
+    },
+    "modernbert_reasoning": {
+      "dim": 6,
+      "mode": "multi_softmax",
+      "desc": "推理性六分类"
+    },
+    "modernbert_professionalism": {
+      "dim": 6,
+      "mode": "multi_softmax",
+      "desc": "专业性六分类"
+    },
+    "qurater": {
+      "dim": 4,
+      "mode": "multi_softmax",
+      "desc": "质量等级四分类"
+    },
+    "ad_en": {
+      "dim": 2,
+      "mode": "binary",
+      "desc": "广告含量二分类对数几率(负向)"
+    },
+    "fineweb_edu": {
+      "dim": 1,
+      "mode": "binary",
+      "desc": "教育价值单对数几率"
+    }
+  },
+  "rows": {
+    "sample": 51230,
+    "arxiv": 17523,
+    "github": 203752
+  },
+  "parse_errors": {
+    "sample": 0,
+    "arxiv": 0,
+    "github": 0
+  },
+  "list_missing_total": {
+    "sample": 18.0,
+    "arxiv": 0.0,
+    "github": 1.0
+  },
+  "note_missing": "列表型指标全为 NaN 的记录：以同数据集同指标的中位数填补，并在 MISS 数组中标记，供冲突分析识别不可判定样本。"
+}

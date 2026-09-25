@@ -1,0 +1,37 @@
+[START] s0_explore @ 2026-09-24 17:31:14
+
+===== 扫描 A1抽样集: C:/Users/dkyyt/Desktop/F题\real_attachments\A_data_value\slimpajama_quality_signal_sample.jsonl\slimpajama_quality_signal_sample.jsonl
+  ... 50000 行
+  总行数 = 51230
+  字段出现次数 = {'id': 51230, 'content': 51230, 'dsir_books': 51230, 'fluency_en': 51230, 'rps_lines_ending_with_terminal_punctution_mark': 51230, 'modernbert_cleanliness': 51230, 'qurater': 51230, 'rps_doc_num_sentences': 51230, 'rps_doc_word_count': 51230, 'ad_en': 51230, 'rps_doc_frac_no_alph_words': 51230, 'modernbert_reasoning': 51230, 'rps_doc_frac_chars_top_2gram': 51230, 'rps_lines_uppercase_letter_fraction': 51230, 'rps_doc_frac_unique_words': 51230, 'rps_lines_numerical_chars_fraction': 51230, 'fineweb_edu': 51230, 'dsir_math': 51230, 'rps_doc_mean_word_length': 51230, 'dsir_wiki': 51230, 'rps_doc_frac_chars_top_3gram': 51230, 'rps_doc_unigram_entropy': 51230, 'modernbert_professionalism': 51230, 'modernbert_readability': 51230, 'sub_path': 51230, '_source_domain': 51230, '_source_path': 51230}
+  域分布 = {'arxiv': 1419, 'book': 171, 'c4': 10000, 'commoncrawl': 9640, 'github': 10000, 'stackexchange': 10000, 'wikipedia': 10000}
+  缺失计数 = {}
+  非有限值 = {}
+  类型错误 = {}
+  列表长度集合 = {'fluency_en': {2: 51230}, 'modernbert_cleanliness': {6: 51230}, 'modernbert_readability': {6: 51230}, 'modernbert_reasoning': {6: 51230}, 'modernbert_professionalism': {6: 51230}, 'qurater': {4: 51230}, 'ad_en': {2: 51230}, 'fineweb_edu': {1: 51230}}
+  content 平均字符数 = 6860.2, 最大 = 3557278
+
+===== 扫描 A2 arxiv扩展集: C:/Users/dkyyt/Desktop/F题\real_attachments\A_data_value\slimpajama_quality_extended\arxiv_part-6777d8857c6e-000486.jsonl\arxiv_part-6777d8857c6e-000486.jsonl
+  总行数 = 17523
+  字段出现次数 = {'id': 17523, 'dsir_books': 17523, 'fluency_en': 17523, 'rps_lines_ending_with_terminal_punctution_mark': 17523, 'modernbert_cleanliness': 17523, 'qurater': 17523, 'rps_doc_num_sentences': 17523, 'rps_doc_word_count': 17523, 'ad_en': 17523, 'rps_doc_frac_no_alph_words': 17523, 'modernbert_reasoning': 17523, 'rps_doc_frac_chars_top_2gram': 17523, 'rps_lines_uppercase_letter_fraction': 17523, 'rps_doc_frac_unique_words': 17523, 'rps_lines_numerical_chars_fraction': 17523, 'fineweb_edu': 17523, 'dsir_math': 17523, 'rps_doc_mean_word_length': 17523, 'dsir_wiki': 17523, 'rps_doc_frac_chars_top_3gram': 17523, 'rps_doc_unigram_entropy': 17523, 'modernbert_professionalism': 17523, 'modernbert_readability': 17523, 'sub_path': 17523}
+  域分布 = {}
+  缺失计数 = {}
+  非有限值 = {}
+  类型错误 = {}
+  列表长度集合 = {'fluency_en': {2: 17523}, 'modernbert_cleanliness': {6: 17523}, 'modernbert_readability': {6: 17523}, 'modernbert_reasoning': {6: 17523}, 'modernbert_professionalism': {6: 17523}, 'qurater': {4: 17523}, 'ad_en': {2: 17523}, 'fineweb_edu': {1: 17523}}
+
+===== 扫描 A3 github扩展集: C:/Users/dkyyt/Desktop/F题\real_attachments\A_data_value\slimpajama_quality_extended\github_part-6777d8857c6e-000275.jsonl\github_part-6777d8857c6e-000275.jsonl
+  ... 50000 行
+  ... 100000 行
+  ... 150000 行
+  ... 200000 行
+  总行数 = 203752
+  字段出现次数 = {'id': 203752, 'modernbert_reasoning': 203752, 'dsir_books': 203752, 'modernbert_readability': 203752, 'fineweb_edu': 203752, 'rps_doc_unigram_entropy': 203752, 'modernbert_cleanliness': 203752, 'rps_doc_frac_chars_top_3gram': 203752, 'rps_doc_frac_chars_top_2gram': 203752, 'rps_doc_frac_no_alph_words': 203752, 'modernbert_professionalism': 203752, 'rps_lines_ending_with_terminal_punctution_mark': 203752, 'dsir_math': 203752, 'rps_doc_frac_unique_words': 203752, 'rps_doc_num_sentences': 203752, 'rps_lines_numerical_chars_fraction': 203752, 'ad_en': 203752, 'dsir_wiki': 203752, 'rps_doc_word_count': 203752, 'rps_doc_mean_word_length': 203752, 'rps_lines_uppercase_letter_fraction': 203752, 'qurater': 203752, 'fluency_en': 203752, 'sub_path': 203752}
+  域分布 = {}
+  缺失计数 = {}
+  非有限值 = {}
+  类型错误 = {}
+  列表长度集合 = {'fluency_en': {2: 203752}, 'modernbert_cleanliness': {6: 203752}, 'modernbert_readability': {6: 203752}, 'modernbert_reasoning': {6: 203752}, 'modernbert_professionalism': {6: 203752}, 'qurater': {4: 203752}, 'ad_en': {2: 203752}, 'fineweb_edu': {1: 203752}}
+
+[OK] s0_explore 完成
+[END] s0_explore @ 2026-09-24 17:31:24

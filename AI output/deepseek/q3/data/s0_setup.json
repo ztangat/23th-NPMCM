@@ -1,0 +1,155 @@
+{
+  "problem_definition": {
+    "objective": "min L(N,D,Q) = E + (a*N^-alpha + b*D^-beta)*Q^-gamma",
+    "constraints": {
+      "C1_train": "6*N*D*1e18 <= C",
+      "C2_quality": "D*1e9*[g(Q)-g(Q0)]_+ <= C",
+      "C3_attn": "eta*N*D*1e18*L_ctx <= C",
+      "total": "C_train + C_Q + C_attn <= C",
+      "simplex": "sum_j p_j = 1, p_j >= 0",
+      "ranges": "0 < Q <= 1, N > 0, D > 0"
+    }
+  },
+  "constants": {
+    "eta": 0.0002,
+    "L_ctx_crit": 30000.0,
+    "unit_factor": 1e+18,
+    "budgets": {
+      "低(1e19)": 1e+19,
+      "中(1e22)": 1e+22,
+      "高(1e24)": 1e+24
+    },
+    "L_ctx_feasible": [
+      2048,
+      4096,
+      8192,
+      32768,
+      131072
+    ]
+  },
+  "quality_cost_families": {
+    "指数型": {
+      "note": "g(Q)=γ·e^{λQ}, γ=1e7, λ=6.0",
+      "gamma": 10000000.0,
+      "lam": 6.0
+    },
+    "幂函数型": {
+      "note": "g(Q)=γ·Q^λ, γ=5e9, λ=4.0",
+      "gamma": 5000000000.0,
+      "lam": 4.0
+    },
+    "对数渐进型": {
+      "note": "g(Q)=γ·ln(1+λQ), γ=2e9, λ=10.0",
+      "gamma": 2000000000.0,
+      "lam": 10.0
+    }
+  },
+  "interface_q1": {
+    "domains": [
+      "arxiv",
+      "freelaw",
+      "nih_exporter",
+      "pubmed_central",
+      "wikipedia_en",
+      "dm_mathematics",
+      "github",
+      "philpapers",
+      "stackexchange",
+      "enron_emails",
+      "gutenberg_pg_19",
+      "pile_cc",
+      "ubuntu_irc",
+      "europarl",
+      "hackernews",
+      "pubmed_abstracts",
+      "uspto_backgrounds"
+    ],
+    "q": [
+      0.7568790621871924,
+      0.6129960871062571,
+      0.6052942754620853,
+      0.6401915274026174,
+      0.36300221452585957,
+      0.6382024629451606,
+      0.41071380255007073,
+      0.6229234694655446,
+      0.6160563529701564,
+      0.5871109475560465,
+      0.3659941002833515,
+      0.596662840483352,
+      0.6423828077071655,
+      0.6240646910028211,
+      0.6120766765690769,
+      0.6044711138281349,
+      0.5976080661918177
+    ],
+    "levels": [
+      "direct",
+      "inferred",
+      "inferred",
+      "inferred",
+      "near_direct",
+      "inferred",
+      "direct",
+      "inferred",
+      "direct",
+      "inferred",
+      "near_direct",
+      "near_direct",
+      "inferred",
+      "inferred",
+      "inferred",
+      "inferred",
+      "inferred"
+    ],
+    "Q_mix_real": 0.5620899420671469,
+    "Q_mix_uniform": 0.5821547351903947,
+    "p_real": [
+      0.04931479443833149,
+      0.05981794538361508,
+      0.0,
+      0.058617585275582675,
+      0.08902670801240371,
+      0.03381014304291287,
+      0.04841452435730719,
+      0.0,
+      0.06992097629288786,
+      0.0,
+      0.10473141942582774,
+      0.13073922176652997,
+      0.05241572471741523,
+      0.0,
+      0.13524057217165147,
+      0.08162448734620387,
+      0.08632589776933079
+    ]
+  },
+  "interface_q2": {
+    "generalized_params": {
+      "E": 1.513151385792295,
+      "a": 0.5327189421957655,
+      "alpha": 0.2588303171627702,
+      "b": 1.192102241276997,
+      "beta": 0.22733649042544454,
+      "g": 0.11836904549396096
+    },
+    "classic_params": {
+      "E": 1.6897975680684922,
+      "a": 0.3539803184435118,
+      "alpha": 0.33997658346219445,
+      "b": 1.2403055813737047,
+      "beta": 0.279878130276757
+    },
+    "form": "M4_整体质量弹性",
+    "R2_B7": 0.9664906572366188
+  },
+  "Q0_choice": {
+    "primary": 0.5620899420671469,
+    "range": [
+      0.4,
+      0.58
+    ],
+    "rationale": "主用问题一真实配比下的 Q_mix；敏感性覆盖工业界实测 0.40~0.58"
+  },
+  "L_ctx_crit_derivation": "C_attn = C_train ⇒ eta·N·D·L_ctx = 6·N·D ⇒ L_ctx_crit = 6/eta = 30000"
+}

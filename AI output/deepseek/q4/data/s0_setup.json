@@ -1,0 +1,89 @@
+{
+  "subtasks": [
+    "T1 规模/非规模贡献分解",
+    "T2 前沿边界预测",
+    "T3 不确定性分析",
+    "T4 Loss-Benchmark桥接"
+  ],
+  "metrics": {
+    "capability": "Average ⬆️",
+    "benchmarks": [
+      "IFEval",
+      "BBH",
+      "MATH Lvl 5",
+      "GPQA",
+      "MUSR",
+      "MMLU-PRO"
+    ]
+  },
+  "open_criteria": {
+    "main": "Hub License 白名单 + Epoch Open_Weights=Yes",
+    "alt": "Hub License 白名单"
+  },
+  "type_criteria": {
+    "pretrained": "🟢/🟩",
+    "chat_finetuned": "💬/🔶/🤝"
+  },
+  "time_criteria": {
+    "main": "Submission Date",
+    "alt": "Epoch Publication Date"
+  },
+  "frontier_defs": {
+    "F_max": "窗口内最大值",
+    "F_p99": "99分位",
+    "F_p95": "95分位"
+  },
+  "c1": {
+    "n": 4576,
+    "date_min": "2024-06-08",
+    "date_max": "2025-03-13",
+    "type_dist": {
+      "chat_finetuned": 4227,
+      "pretrained": 333,
+      "other": 16
+    },
+    "n_open_license": 2799,
+    "avg_desc": {
+      "count": 4576.0,
+      "mean": 21.814863006261174,
+      "std": 10.802092412762386,
+      "min": 0.7378506308720487,
+      "25%": 13.936474140305407,
+      "50%": 21.950425739918487,
+      "75%": 29.258423665252337,
+      "max": 52.08138397879168
+    }
+  },
+  "c2": {
+    "n": 4576,
+    "n_open_weights_nonnull": 443,
+    "n_pubdate_nonnull": 447
+  },
+  "c4": {
+    "n": 3523,
+    "n_language": 1961,
+    "n_lang_open": 901
+  },
+  "bridge": {
+    "n": 75,
+    "corr_lin": -0.5100149555875962,
+    "corr_log": -0.5310609237247617,
+    "comparability": {
+      "Medium (different validation set, approximate)": 68,
+      "High (same model, same validation set)": 7
+    }
+  },
+  "c8": {
+    "n_dirs": 1863,
+    "task_families": [
+      "bbh",
+      "gpqa",
+      "ifeval",
+      "leaderboard",
+      "math",
+      "mmlu",
+      "musr"
+    ],
+    "n_bbh_subtasks": 25
+  }
+}

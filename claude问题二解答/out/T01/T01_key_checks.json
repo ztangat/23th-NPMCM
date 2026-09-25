@@ -1,0 +1,13 @@
+{
+ "B7_Q1_vs_B1_anchor_mean_abs_diff": 0.04768925121176485,
+ "B7_Q1_vs_B1_anchor_max_abs_diff": 0.13384420600858382,
+ "B7_Q1_vs_B1_anchor_n": 24,
+ "B8_floor_share": 0.21244131455399062,
+ "B7_vs_B8_same_point_corr": -0.02614443491975051,
+ "B7_vs_B8_n": 224,
+ "Q_direction_median_spearman": {
+  "B6": -0.9285714285714287,
+  "B7": -0.9515151515151514,
+  "B8": 0.9929823694376383
+ }
+}

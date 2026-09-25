@@ -1,0 +1,10 @@
+family,source,n,N_min,N_max,D_min,D_max,L_min,L_max
+BLOOM,Scao et al. 2022,4,0.56,176.0,366,366,1.846,2.628
+Chinchilla,Hoffmann et al. 2022,9,0.5,70.0,5,1400,1.71,3.015
+GPT-2,Kaplan et al. 2020,1,1.5,1.5,10,10,2.906,2.906
+GPT-3,Kaplan et al. 2020,8,0.125,175.0,300,300,2.011,2.761
+Gopher,Hoffmann et al. 2022,7,0.2,280.0,300,300,2.057,2.819
+LLaMA,Touvron et al. 2023,4,7.0,65.0,1000,1400,1.685,1.943
+LLaMA-2,Touvron et al. 2023,3,7.0,70.0,2000,2000,1.617,1.849
+OPT,Zhang et al. 2022,5,1.3,175.0,180,180,2.042,2.723
+PaLM,Chowdhery et al. 2022,3,8.0,540.0,780,780,1.473,1.901

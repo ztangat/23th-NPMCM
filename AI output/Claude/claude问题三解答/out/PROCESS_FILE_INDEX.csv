@@ -1,0 +1,34 @@
+﻿path,size_bytes,stage,stage_description
+PROCESS_FILE_INDEX.csv,1960,PROCESS_FILE_INDEX.csv,日志/索引
+V01/V01_C7_with_context_overhead.csv,5302,V01,C7 上下文可行集、L_crit=6/η 推导、数据墙锚点
+V01/V01_critical_context.json,374,V01,C7 上下文可行集、L_crit=6/η 推导、数据墙锚点
+V01/V01_feasible_Lctx_set.csv,637,V01,C7 上下文可行集、L_crit=6/η 推导、数据墙锚点
+V02/V02_main_three_budgets_Lctx2048.csv,5643,V02,三档预算×4成本函数×6 L_ctx×2配比最优解与独立求解器核验
+V02/V02_mixture_gain_by_budget.csv,865,V02,三档预算×4成本函数×6 L_ctx×2配比最优解与独立求解器核验
+V02/V02_optimal_allocation_full_grid.csv,59597,V02,三档预算×4成本函数×6 L_ctx×2配比最优解与独立求解器核验
+V03/V03_budget_shares_by_decade.csv,4948,V03,1e15–1e27 预算扫描、结构性转移识别、局部标度指数、分段幂律断点
+V03/V03_budget_sweep.csv,1493355,V03,1e15–1e27 预算扫描、结构性转移识别、局部标度指数、分段幂律断点
+V03/V03_local_scaling_exponents.csv,755869,V03,1e15–1e27 预算扫描、结构性转移识别、局部标度指数、分段幂律断点
+V03/V03_segmented_powerlaw_breakpoints.csv,3970,V03,1e15–1e27 预算扫描、结构性转移识别、局部标度指数、分段幂律断点
+V03/V03_structural_transitions_detected.csv,8887,V03,1e15–1e27 预算扫描、结构性转移识别、局部标度指数、分段幂律断点
+V04/V04_critical_budgets_analytic_vs_numeric.csv,5992,V04,临界预算解析判据 vs 数值二分、g′*轨迹、跳跃型等值切换
+V04/V04_gprime_star_trajectory.csv,8880,V04,临界预算解析判据 vs 数值二分、g′*轨迹、跳跃型等值切换
+V05/V05_KKT_check.csv,2474,V05,KKT 核验、配比支配性
+V05/V05_mixture_dominance_by_budget.csv,3208,V05,KKT 核验、配比支配性
+V06/V06_Q0_scenarios.csv,14572,V06,参数不确定性、Q0 情景、成本参数敏感性
+V06/V06_cost_parameter_sensitivity.csv,1140,V06,参数不确定性、Q0 情景、成本参数敏感性
+V06/V06_regime_stability.csv,608,V06,参数不确定性、Q0 情景、成本参数敏感性
+V06/V06_uncertainty_draws.csv,381091,V06,参数不确定性、Q0 情景、成本参数敏感性
+V06/V06_uncertainty_quantiles.csv,4310,V06,参数不确定性、Q0 情景、成本参数敏感性
+figures/F01_cost_functions.png,136521,figures,图表
+figures/F02_budget_sweep.png,275648,figures,图表
+figures/F03_gprime_star.png,108780,figures,图表
+figures/F04_three_budgets_shares.png,50689,figures,图表
+figures/F05_context_sensitivity.png,173988,figures,图表
+figures/F06_local_exponents.png,115230,figures,图表
+figures/F07_regime_phase_diagram.png,73071,figures,图表
+figures/F08_uncertainty_Q0.png,135087,figures,图表
+figures/F09_C7_context.png,55252,figures,图表
+figures/F10_gains.png,95355,figures,图表
+log_v01_v06.txt,17842,log_v01_v06.txt,日志/索引
+log_v04b.txt,4135,log_v04b.txt,日志/索引

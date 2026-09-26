@@ -1,0 +1,16 @@
+{
+ "eta": 0.0002,
+ "L_crit": 30000.0,
+ "derivation": "C_attn = C_train ⇔ η·N·D·L = 6·N·D ⇔ L_crit = 6/η = 30000",
+ "feasible_L": [
+  2048,
+  4096,
+  8192,
+  32768,
+  131072
+ ],
+ "n_models": 45,
+ "share_models_L_ge_Lcrit": 0.26666666666666666,
+ "data_wall_tokens": 18000000000000.0,
+ "data_wall_source": "C7 training_data_TB 最大值(Qwen2.5 系列 18T tokens)"
+}
